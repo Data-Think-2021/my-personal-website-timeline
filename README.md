@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website - Xia He-Bleinagel
 
-## Getting Started
+A professional website showcasing my journey in tech, expertise in data engineering, and cloud solutions.
 
-First, run the development server:
+## Features
+
+- Professional timeline of experience
+- Coaching and consultation services
+- Contact form integration
+- Calendly booking integration
+- Responsive design
+
+## Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Formspree for contact form
+- Calendly for scheduling
+
+## Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is automatically deployed to GitHub Pages using GitHub Actions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Setup Instructions
 
-## Learn More
+1. In your GitHub repository settings, go to "Pages" section:
+   - Set the source to "Deploy from a branch"
+   - Select the "gh-pages" branch
+   - Save the settings
 
-To learn more about Next.js, take a look at the following resources:
+2. Add your custom domain:
+   - In the repository settings under "Pages"
+   - Enter your custom domain (e.g., www.yourname.com)
+   - Save
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Configure your DNS:
+   - Go to your domain registrar's DNS settings
+   - Add these records:
+     ```
+     Type  Name  Value
+     A     @     185.199.108.153
+     A     @     185.199.109.153
+     A     @     185.199.110.153
+     A     @     185.199.111.153
+     CNAME www   your-username.github.io
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Add a CNAME file:
+   ```bash
+   echo "www.yourname.com" > public/CNAME
+   ```
 
-## Deploy on Vercel
+5. Push to main branch to trigger deployment:
+   ```bash
+   git add .
+   git commit -m "Add CNAME for custom domain"
+   git push origin main
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The GitHub Action will:
+- Build your project
+- Deploy it to the gh-pages branch
+- Make it available at your custom domain
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Environment Variables
+
+Create a `.env.local` file with:
+
+```env
+NEXT_PUBLIC_FORMSPREE_ID=your_formspree_id
+```
+
+## License
+
+MIT
