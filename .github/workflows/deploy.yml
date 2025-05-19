@@ -25,7 +25,7 @@ jobs:
           const nextConfig = {
             output: 'export',
             images: { unoptimized: true },
-            basePath: '/personal-website-timeline'
+            basePath: '/my-personal-website-timeline'
           }
           module.exports = nextConfig" > next.config.js
         
