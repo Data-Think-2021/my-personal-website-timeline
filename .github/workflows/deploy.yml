@@ -19,16 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Update Next.js config
-        run: |
-          echo "/** @type {import('next').NextConfig} */
-          const nextConfig = {
-            output: 'export',
-            images: { unoptimized: true },
-            basePath: '/my-personal-website-timeline'
-          }
-          module.exports = nextConfig" > next.config.js
-        
       - name: Build project
         run: npm run build
         env:
