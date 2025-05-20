@@ -14,7 +14,7 @@ export default function About() {
             <p className="mb-6">
               I live with my family in Kleinmachnow, which is located the southwest of Berlin. I&apos;m a mom to two kids, one samojede dog, and two cats. Life isn&apos;t a straight line upward for me—it bounces up and down. But I&apos;ve come a long way—from a farming family in rural China, to studying in Italy, France, and now Germany.—and I know I&apos;ve been both lucky and prepared when opportunity knocked. 🍀
             </p>
-            <h2 className="text-2xl font-semibold mt-12 mb-4">Hobbies? Kind of!</h2>
+            <h2 className="text-2xl font-semibold mt-12 mb-4">Hobbies</h2>
             <p className="mb-6">
               A few years ago, my hobbies were mostly just &quot;trying to sit down in my own garden for a tea,&quot; but I&apos;ve managed to sneak in: Gardening (a.k.a. outdoor therapy), Sewing clothes for my kids and now even for myself, Yoga 🧘‍♀️, dog walking, and building my website and ios app.
             </p>

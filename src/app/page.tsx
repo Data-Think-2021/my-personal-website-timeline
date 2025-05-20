@@ -17,7 +17,7 @@ export default function Home() {
                 Data & Cloud Expert | AWS Specialist
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-                Experienced in ETL pipelines, AWS infrastructure, and data analytics. Passionate about empowering women in tech through mentorship and knowledge sharing.
+                Experienced in ETL pipelines, AWS infrastructure, and data analytics. Passionate about empowering women, moms, people with migration background to chase their careers and financial independence.
               </p>
               <a
                 href="/book-call"
