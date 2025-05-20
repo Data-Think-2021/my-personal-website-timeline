@@ -1,10 +1,3 @@
-declare global {
-  interface Window {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    Calendly: any;
-  }
-}
-
 import Navigation from '@/components/Navigation';
 import Timeline from '@/components/Timeline';
 import Image from 'next/image';
