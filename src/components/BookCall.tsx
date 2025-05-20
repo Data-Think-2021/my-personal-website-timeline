@@ -1,8 +1,24 @@
 'use client';
 
 import Script from 'next/script';
+import { useEffect } from 'react';
 
 const BookCall = () => {
+  useEffect(() => {
+    // Wait until the script is loaded, then initialize Calendly
+    const interval = setInterval(() => {
+      if (typeof window.Calendly !== 'undefined') {
+        window.Calendly.initInlineWidget({
+          url: 'https://calendly.com/xia-he88/30min',
+          parentElement: document.querySelector('.calendly-inline-widget'),
+        });
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       {/* Intro Section */}
@@ -15,19 +31,16 @@ const BookCall = () => {
         </div>
       </div>
 
-      {/* Calendly Widget Section - Full Width */}
+      {/* Calendly Widget Section */}
       <div className="w-full h-screen">
-        <div 
-          className="calendly-inline-widget w-full h-full" 
-          data-url="https://calendly.com/xia-he88/30min"
-        ></div>
-        <Script 
+        <div className="calendly-inline-widget w-full h-full"></div>
+        <Script
           src="https://assets.calendly.com/assets/external/widget.js"
-          async
+          strategy="afterInteractive"
         />
       </div>
     </>
   );
 };
 
-export default BookCall; 
+export default BookCall;
