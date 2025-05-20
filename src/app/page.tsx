@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
+
 import Navigation from '@/components/Navigation';
 import Timeline from '@/components/Timeline';
 import Image from 'next/image';
