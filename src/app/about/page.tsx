@@ -6,46 +6,50 @@ export default function About() {
       <Navigation />
       <div className="pt-32 px-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8">About Me</h1>
-          
+          <h1 className="text-4xl font-bold mb-8">My Story</h1>
           <div className="prose prose-invert max-w-none">
             <p className="text-xl mb-6">
-              I&apos;m passionate about empowering women in technology through mentorship, coaching, and hands-on guidance in Data Engineering, Cloud Architecture, and AI solutions.
+              Hey there! I&apos;m Xia, a curious, open-minded, slightly risk-loving human who believes in working hard, learning constantly, and experimenting new things.
             </p>
-
-            <h2 className="text-2xl font-semibold mt-12 mb-4">My Expertise</h2>
-            <ul className="space-y-4">
+            <p className="mb-6">
+              I live with my family in Kleinmachnow, which is located the southwest of Berlin. I&apos;m a mom to two kids, one samojede dog, and two cats. Life isn&apos;t a straight line upward for me—it bounces up and down. But I&apos;ve come a long way—from a farming family in rural China, to studying in Italy, France, and now Germany.—and I know I&apos;ve been both lucky and prepared when opportunity knocked. 🍀
+            </p>
+            <h2 className="text-2xl font-semibold mt-12 mb-4">Hobbies? Kind of!</h2>
+            <p className="mb-6">
+              A few years ago, my hobbies were mostly just &quot;trying to sit down in my own garden for a tea,&quot; but I&apos;ve managed to sneak in: Gardening (a.k.a. outdoor therapy), Sewing clothes for my kids and now even for myself, Yoga 🧘‍♀️, dog walking, and building my website and ios app.
+            </p>
+            <h2 className="text-2xl font-semibold mt-12 mb-4">Cool Things I Did Recently</h2>
+            <p className="mb-4">
+              Last year, I initiated two community-driven projects that made me feel all warm inside:
+            </p>
+            <ul className="space-y-2 mb-6">
               <li>
-                <strong>Cloud Architecture:</strong> Extensive experience with AWS, Azure, and GCP, designing and implementing scalable cloud solutions.
+                <strong>The Working Mom Project</strong> – a support initiative for moms preparing to return to the workforce.
               </li>
               <li>
-                <strong>Data Engineering:</strong> Building robust data pipelines, ETL processes, and data warehousing solutions.
-              </li>
-              <li>
-                <strong>Artificial Intelligence:</strong> Implementing ML models and AI solutions for business problems.
-              </li>
-              <li>
-                <strong>Technical Leadership:</strong> Leading teams and mentoring junior engineers in their technical growth.
+                <strong>Asian Cooking Classes</strong> – something I organized for my German neighbors to share culture and food.
               </li>
             </ul>
-
-            <h2 className="text-2xl font-semibold mt-12 mb-4">My Mission</h2>
+            <h2 className="text-2xl font-semibold mt-12 mb-4">What&apos;s Next? 🚀</h2>
             <p className="mb-6">
-              My goal is to bridge the gender gap in technology by providing practical guidance, mentorship, and support to women pursuing careers in tech. Through personalized coaching sessions, I help individuals navigate their technical career paths, overcome challenges, and achieve their professional goals.
+              This year, I&apos;m trying something new: <strong>Freelancing Fridays!</strong> I&apos;m dipping my toes into freelance work with a mission to help and empower women, moms, and people with migration background to chase their careers and financial independence. 💪✨ Independence is extremely important to me when I overcome my midlife crisis recently.
             </p>
-
-            <div className="mt-12 p-6 bg-gray-800 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Ready to Start Your Journey?</h3>
-              <p className="mb-4">
-                Whether you&apos;re just starting in tech or looking to advance your career, I&apos;m here to help you succeed.
-              </p>
-              <a
-                href="/book-call"
-                className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-2 rounded-lg transition-colors"
-              >
-                Schedule a Free Consultation
-              </a>
-            </div>
+            <p className="mb-6">
+              If that sounds like you—or someone you know—I&apos;m always happy to chat, share, or cheer you on.
+            </p>
+          </div>
+          {/* Book a Call Section */}
+          <div className="mt-12 p-6 bg-gray-800 rounded-lg">
+            <h3 className="text-xl font-semibold mb-4">Ready to Be A Better You?</h3>
+            <p className="mb-4">
+              Whether you&apos;re just starting in tech or looking to advance your career, I&apos;m here to help you succeed.
+            </p>
+            <a
+              href="/book-call"
+              className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-2 rounded-lg transition-colors"
+            >
+              Schedule a Free Consultation
+            </a>
           </div>
         </div>
       </div>
