@@ -6,6 +6,13 @@ import { AcademicCapIcon, BriefcaseIcon } from '@heroicons/react/24/outline';
 
 const timelineData = [
   {
+    date: '2025',
+    title: 'Head of Data and Cloud',
+    location: 'NOW GmbH',
+    description: 'Leading the data strategy and team, AWS infrastructure, and driving data-driven initiatives across the organization.',
+    icon: BriefcaseIcon,
+  },
+  {
     date: '2024',
     title: 'Data Manager',
     location: 'NOW GmbH',
