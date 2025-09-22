@@ -8,6 +8,7 @@ const Navigation = () => {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'My Story' },
+    { href: '/blog', label: 'Blog' },
     { href: '/coaching', label: 'Coaching' },
     { href: '/book-call', label: 'Book a Call' },
     { href: '/contact', label: 'Contact' },
