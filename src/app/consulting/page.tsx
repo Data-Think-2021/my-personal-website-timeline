@@ -129,7 +129,7 @@ export default function ConsultingPage() {
                   <p className="text-gray-300 mb-6">{service.description}</p>
                   
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-white mb-3">What's Included:</h4>
+                    <h4 className="text-lg font-semibold text-white mb-3">What&apos;s Included:</h4>
                     <ul className="space-y-2">
                       {service.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="flex items-start text-gray-300">
@@ -222,7 +222,7 @@ export default function ConsultingPage() {
               <div className="bg-gray-800 rounded-lg p-8">
                 <h3 className="text-2xl font-bold text-white mb-6">Ready to Get Started?</h3>
                 <p className="text-gray-300 mb-6">
-                  Let's discuss how I can help transform your organization's data and AI capabilities. 
+                  Let&apos;s discuss how I can help transform your organization&apos;s data and AI capabilities. 
                   Book your free discovery call to explore your specific needs and challenges.
                 </p>
                 <div className="space-y-4">
