@@ -8,9 +8,9 @@ const BookCall = () => {
       {/* Intro Section */}
       <div className="pt-20 pb-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-8">Book a Free Consultation</h2>
+          <h2 className="text-4xl font-bold text-center mb-8">Book Your Free Discovery Call</h2>
           <p className="text-gray-300 text-center">
-            I offer two free consultation slots every Friday. Let&apos;s discuss how I can help you advance your career in tech.
+            Book your free discovery call to explore how we can accelerate your success and turn your ambitions into reality.
           </p>
         </div>
       </div>

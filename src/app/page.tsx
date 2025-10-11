@@ -14,16 +14,16 @@ export default function Home() {
             {/* Left Content - Takes up 2 columns */}
             <div className="md:col-span-2 text-left">
               <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-                Head of Data and Cloud| Empathetic Leader | Women in Tech Mentor
+                Head of Data and Cloud | Empathetic Leader
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-                Leading data strategy and teams, with expertise in ETL pipelines, AWS infrastructure, and data analytics. Passionate about empowering women, moms, people with migration background to chase their careers and financial independence.
+              Leading data team and data science community, shaping data-driven organizations through hands-on expertise in data, cloud, and AI strategy. I help businesses build scalable data capabilities, strengthen data and AI literacy, and unlock growth through intelligent decision-making. 
               </p>
               <a
                 href="/book-call"
                 className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
               >
-                Book Your Free Consultation
+                Book Your Free Discovery Call
               </a>
             </div>
 
