@@ -14,7 +14,7 @@ const timelineData = [
   },
   {
     date: '2024',
-    title: 'Data Manager',
+    title: 'Data Engineer',
     location: 'NOW GmbH',
     description: 'Development and maintenance of various ETL pipelines in AWS. Administration of AWS infrastructure. Successful initiatives of AWS Certification Sprint 1, internal hackathon, women mentorship program.',
     icon: BriefcaseIcon,
