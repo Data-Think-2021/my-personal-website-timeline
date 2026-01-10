@@ -5,37 +5,37 @@ const phases = [
   {
     phase: 'Week 1',
     title: 'Kick-off & The AI Foundation',
-    days: 'Week 1',
+    days: '13. February 2026',
     focus: 'Setting up your environment, playing rules, the powerful learning habit system, and understanding how GenAI/LLMs actually work.',
   },
   {
     phase: 'Week 2',
     title: 'The Swiss Army Knife',
-    days: 'Week 2',
+    days: '20. February 2026',
     focus: 'AI toolset. Master the essentials of Text, Video, Image, and Audio AI.',
   },
   {
     phase: 'Week 3',
     title: 'AI at Work & Life',
-    days: 'Week 3',
+    days: '27. February 2026',
     focus: 'Using AI for high-impact work, presentations, automating routine tasks, and communication. Use AI as personal assistant and be creative with it.'
   },
   {
     phase: 'Week 4',
     title: 'Vibe Coding & Personal Branding',
-    days: 'Week 4',
+    days: '6. March 2026',
     focus: 'Building your own personal website or AI Agent. Experience "Vibe Coding"—creating functional software without programming knowledge.'
   },
   {
     phase: 'Week 5',
     title: 'Mastering AI',
-    days: 'Week 5',
+    days: '13. March 2026',
     focus: 'Strategies, multi-step workflows, and integrating AI into your existing professional toolstack.'
   },
   {
     phase: 'Week 6',
     title: 'Final Project',
-    days: 'Week 6',
+    days: '20. March 2026',
     focus: '"Build your own project." You will leave this cohort with a finished, functional AI solution tailored to your specific needs.'
   }
 ];
@@ -158,7 +158,7 @@ export default function AILearningGroup() {
                   <CalendarIcon className="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-purple-400" />
                   <div>
                     <p className="font-semibold text-white mb-1">Cohort Dates:</p>
-                    <p>15. February – 20. March 2026</p>
+                    <p>13. February – 20. March 2026</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -200,7 +200,7 @@ export default function AILearningGroup() {
                 <div className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg">
                   <div>
                     <span className="text-white text-lg font-semibold">First Cohort &quot;Founding Member&quot; Discount:</span>
-                    <p className="text-purple-100 text-sm mt-1">This special pricing is only available for our inaugural group starting February 15th, 2026.</p>
+                    <p className="text-purple-100 text-sm mt-1">This special pricing is only available for our inaugural group starting February 13th, 2026.</p>
                   </div>
                   <span className="text-white text-3xl font-bold">149€</span>
                 </div>
