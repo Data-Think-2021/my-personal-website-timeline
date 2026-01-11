@@ -16,21 +16,21 @@ const phases = [
   },
   {
     phase: 'Week 3',
-    title: 'AI at Work & Life',
+    title: 'AI at Work',
     days: '27. February 2026',
-    focus: 'Using AI for high-impact work, presentations, automating routine tasks, and communication. Use AI as personal assistant and be creative with it.'
+    focus: 'Using AI for high-impact work, presentations, automating routine tasks, and communication.'
   },
   {
     phase: 'Week 4',
-    title: 'Vibe Coding & Personal Branding',
+    title: 'AI to improve life',
     days: '6. March 2026',
-    focus: 'Building your own personal website or AI Agent. Experience "Vibe Coding"—creating functional software without programming knowledge.'
+    focus: 'Use AI as personal assistant and be creative with it to enhance your daily life.'
   },
   {
     phase: 'Week 5',
-    title: 'Mastering AI',
+    title: 'Vibe Coding & Personal Website',
     days: '13. March 2026',
-    focus: 'Strategies, multi-step workflows, and integrating AI into your existing professional toolstack.'
+    focus: 'Building your own personal website or AI Agent. Experience "Vibe Coding"—creating functional software without programming knowledge.'
   },
   {
     phase: 'Week 6',
@@ -128,11 +128,17 @@ export default function AILearningGroup() {
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">Why Learn With Me?</h2>
               <p className="text-gray-300 text-lg leading-relaxed">
-                From a full-time stay-at-home mom to Head of Data, my journey has been defined by one thing: 
-                The power of habit and curiosity. I don&apos;t just explain AI; I help you succeed in the AI age. 
-                Whether it&apos;s prototyping, strategy, or coding, I show you how to use AI to achieve more. 
-                I will show you how to build a &quot;Learning Loop&quot;—breaking complex tech into manageable bites—to 
-                master the most important skill of the AI age: the ability of learning.
+                From a full-time stay-at-home mom to Head of Data, my journey has been defined by one thing: the power of habit and curiosity. 
+                Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise 
+                and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning 
+                and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and 
+                have since applied these technologies across production systems, leadership roles, and data-driven strategy.
+              </p>
+              <p className="text-gray-300 text-lg leading-relaxed mt-4">
+                I don&apos;t just explain AI; I help you succeed in the AI age. Whether it&apos;s prototyping, strategy, or coding, 
+                I show you how to use AI to achieve more with confidence and clarity. I will guide you in building a &quot;Learning Loop&quot;—a practical 
+                approach to breaking complex technology into manageable, repeatable bites—so you can continuously adapt, grow, and master the most important 
+                skill of the AI age: <strong>the ability of learning</strong>.
               </p>
             </div>
 
