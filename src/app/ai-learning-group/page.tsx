@@ -211,7 +211,15 @@ export default function AILearningGroup() {
                   <span className="text-white text-3xl font-bold">149€</span>
                 </div>
                 <p className="text-gray-400 text-sm mt-2">
-                  <strong>Scholarship Option:</strong> I reserve a small number of scholarship places for people who are motivated but currently financially constrained.
+                  <strong>Scholarship Option:</strong> I reserve a small number of scholarship places for people who are motivated but currently financially constrained.{' '}
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeJwiYai6rMMy8gxNyrNsFbikSSqR4sw8ph_KcvN-YKjSRZQA/viewform?usp=publish-editor" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-400 hover:text-purple-300 underline"
+                  >
+                    Apply for scholarship here
+                  </a>
                 </p>
               </div>
             </div>
