@@ -9,7 +9,6 @@ const Navigation = () => {
     { href: '/', label: 'Home' },
     { href: '/ai-learning-group', label: 'AI Learning Group' },
     { href: '/blog', label: 'Blog' },
-    { href: '/consulting', label: 'Consulting' },
     { href: '/coaching', label: 'Coaching' },
     { href: '/book-call', label: 'Book a Call' },
     { href: '/contact', label: 'Contact' },
