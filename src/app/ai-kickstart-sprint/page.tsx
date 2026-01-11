@@ -65,10 +65,11 @@ export default function AIKickstartSprint() {
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-3">The Mission</h2>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Most people are &quot;AI Curious,&quot; but few are &quot;AI Productive.&quot; This is not a lecture series; 
-                it is a 6-week sprint designed to integrate Artificial Intelligence into your daily life through small
-                compound wins. We don&apos;t just talk about tools; we build the habit and learning lifestyle 
-                required to thrive in the age of AI.
+                You don&apos;t want to wait another year to &quot;start with AI.&quot; You want to use AI now — to work faster, 
+                think clearer, and build real things instead of just consuming content. In this 6-week sprint, you integrate AI 
+                into your daily workflow, understand how it actually works, and use the most powerful tools with confidence. 
+                You will prototype ideas quickly and build your own personal website using free tools, without programming knowledge. 
+                We focus on execution over perfection, progress over overwhelm — so you leave not inspired, but able to apply AI immediately.
               </p>
             </div>
 
