@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const Navigation = () => {
   const links = [
     { href: '/', label: 'Home' },
-    { href: '/ai-learning-group', label: 'AI Learning Group' },
+    { href: '/ai-kickstart-sprint', label: 'AI Kickstart Sprint' },
     { href: '/blog', label: 'Blog' },
     { href: '/coaching', label: 'Coaching' },
     { href: '/book-call', label: 'Book a Call' },

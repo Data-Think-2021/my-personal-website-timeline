@@ -40,7 +40,7 @@ const phases = [
   }
 ];
 
-export default function AILearningGroup() {
+export default function AIKickstartSprint() {
   return (
     <>
       <Navigation />
@@ -50,10 +50,10 @@ export default function AILearningGroup() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-                AI Learning Group: The 6-Week Sprint
+                AI KICKSTART SPRINT: From AI-curious to AI-productive
               </h1>
               <p className="text-2xl text-gray-300 mb-4 font-semibold">
-                A 6-Week Habit Transformation for Professionals
+                a 6-week guided program to build real AI habits for work and life
               </p>
             </div>
           </div>
