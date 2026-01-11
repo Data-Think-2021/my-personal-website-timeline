@@ -103,24 +103,28 @@ export default function AIKickstartSprint() {
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">The Goal Group</h2>
               <p className="text-gray-300 mb-6 text-lg font-semibold">
-                This course is perfect for:
+                This course is perfect for you if:
               </p>
               <ul className="space-y-4 text-gray-300 text-lg">
                 <li className="flex items-start">
                   <span className="text-purple-400 mr-3 mt-1">•</span>
-                  <span>Anyone who wants to be more productive and organised</span>
+                  <span>you want to understand how AI actually works and how to prompt it</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-400 mr-3 mt-1">•</span>
-                  <span>Busy professionals who want to automate tasks and streamline their workflow</span>
+                  <span>you want to achieve more and become measurably more productive</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-400 mr-3 mt-1">•</span>
-                  <span>Anyone curious about using AI to improve work, learning, and everyday life</span>
+                  <span>you want to automate repetitive tasks at work or in daily life</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-400 mr-3 mt-1">•</span>
-                  <span>Anyone who wants to invest in personal development and is looking for a structured, practical approach to building lasting habits.</span>
+                  <span>you want to build and host your own personal website for free, without coding</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-purple-400 mr-3 mt-1">•</span>
+                  <span>you want a structured, guided learning system instead of scattered tutorials</span>
                 </li>
               </ul>
             </div>
