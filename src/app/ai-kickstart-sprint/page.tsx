@@ -132,18 +132,19 @@ export default function AIKickstartSprint() {
             {/* Why Learn With Me */}
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">Why Learn With Me?</h2>
+              <p className="text-gray-300 text-lg leading-relaxed mt-4">
+                I don&apos;t just explain AI; I help you succeed in the AI age. Whether it&apos;s prototyping, strategy, or coding, 
+                I show you how to use AI to achieve more with confidence and clarity. I will guide you in building a &quot;Learning Loop&quot;—a practical 
+                approach to breaking complex technology into manageable, repeatable bites—so you can continuously adapt, grow, and master the most important 
+                skill of the AI age: <strong>the ability of learning</strong>.
+              </p>
+              <br />
               <p className="text-gray-300 text-lg leading-relaxed">
                 From a full-time stay-at-home mom to Head of Data, my journey has been defined by one thing: the power of habit and curiosity. 
                 Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise 
                 and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning 
                 and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and 
                 have since applied these technologies across production systems, leadership roles, and data-driven strategy.
-              </p>
-              <p className="text-gray-300 text-lg leading-relaxed mt-4">
-                I don&apos;t just explain AI; I help you succeed in the AI age. Whether it&apos;s prototyping, strategy, or coding, 
-                I show you how to use AI to achieve more with confidence and clarity. I will guide you in building a &quot;Learning Loop&quot;—a practical 
-                approach to breaking complex technology into manageable, repeatable bites—so you can continuously adapt, grow, and master the most important 
-                skill of the AI age: <strong>the ability of learning</strong>.
               </p>
             </div>
 
