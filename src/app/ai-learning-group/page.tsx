@@ -119,7 +119,7 @@ export default function AILearningGroup() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-400 mr-3 mt-1">•</span>
-                  <span>Anyone who want to invest in personal development and needs a structured approach to building good habits</span>
+                  <span>Anyone who wants to invest in personal development and is looking for a structured, practical approach to building lasting habits.</span>
                 </li>
               </ul>
             </div>
