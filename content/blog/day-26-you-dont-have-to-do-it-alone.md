@@ -5,8 +5,6 @@ excerpt: "Reflecting on the first four weeks of leadership and the importance of
 tags: ["leadership", "100-days", "mentorship", "continuous-learning", "growth-mindset"]
 ---
 
-# Day 26/100 as Head of Data & Cloud
-
 On my very first day, I caught myself thinking:
 &quot;Am I really ready for this?&quot;
 
