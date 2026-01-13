@@ -140,7 +140,7 @@ export default function AIKickstartSprint() {
               </p>
               <br />
               <p className="text-gray-300 text-lg leading-relaxed">
-                From a full-time stay-at-home mom to Head of Data, my journey has been defined by one thing: the power of habit and curiosity. 
+                From a full-time stay-at-home mom to data leader, my journey has been defined by one thing: the power of habit and curiosity. 
                 Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise 
                 and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning 
                 and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and 
