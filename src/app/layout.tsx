@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Empowering Women in Tech through Data, Cloud & AI",
-  description: "Professional coaching and mentoring for women in technology",
+  description: "Data leader providing mentorship for transition to tech, career growth, entrepreneur journey, and women empowerment",
 };
 
 export default function RootLayout({

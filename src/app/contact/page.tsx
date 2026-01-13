@@ -79,7 +79,7 @@ export default function Contact() {
               <h2 className="text-2xl font-semibold mb-6">Connect With Me</h2>
               <div className="space-y-6">
                 <p className="text-gray-300">
-                  Whether you have questions about coaching, want to discuss collaboration opportunities, or just want to say hello, I&apos;d love to hear from you.
+                  Whether you have questions about mentoring, AI courses, want to discuss collaboration opportunities, or just want to say hello, I&apos;d love to hear from you.
                 </p>
                 
                 <div className="space-y-4">
