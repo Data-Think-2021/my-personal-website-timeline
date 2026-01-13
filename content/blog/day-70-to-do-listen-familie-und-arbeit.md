@@ -5,8 +5,6 @@ excerpt: "Eine persönliche Geschichte darüber, wie eine einfache To-Do-Liste m
 tags: ["leadership", "100-days", "structure", "productivity", "teamwork", "to-do-liste", "family"]
 ---
 
-# Day 70/100 as Head of Data & Cloud
-
 &quot;Mama, kannst du mir bitte eine Liste aufschreiben, was ich heute machen soll?&quot; Am Sonntag Morgen beim Frühstück fragte meine Tochter mich plötzlich.
 
 Ich war überrascht. Ich habe nie solche Idee gehabt. Mein Mann und ich sind eigentlich sehr spontane Menschen – To-do-Listen gehören bei uns privat eher nicht dazu.

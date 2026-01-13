@@ -5,7 +5,6 @@ excerpt: "Reflecting on a first trip to America and Canada, exploring the Americ
 tags: ["leadership", "100-days", "reflection", "travel", "america", "immigration", "culture"]
 ---
 
-# Day 67/100 as Head of Data & Cloud
 
 My first time in America — I have a mixed feeling of grateful, worried, and inspired all at once.
 

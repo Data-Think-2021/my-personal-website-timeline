@@ -5,8 +5,6 @@ excerpt: "Reflexion über den selbstorganisierten Purpose-Workshop mit dem Team 
 tags: ["leadership", "100-days", "purpose", "team-development", "cloud", "data", "innovation", "growth-mindset"]
 ---
 
-# Day 46/100 as Head of Data & Cloud
-
 Warum tun wir, was wir tun? Was treibt uns wirklich an?
 
 Gestern durfte ich mit meinem Team einen selbstorganisierten Purpose-Workshop durchführen. Ich bin begeistert von dem, was dabei entstanden ist.
