@@ -144,7 +144,15 @@ export default function AIKickstartSprint() {
                 Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise 
                 and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning 
                 and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and 
-                have since applied these technologies across production systems, leadership roles, and data-driven strategy.
+                have since applied these technologies across production systems, leadership roles, and data-driven strategy.{' '}
+                <a 
+                  href="https://www.youtube.com/live/D2rw52SOFfM?si=FzSQ151S-NG7eZsB" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300 underline"
+                >
+                  Watch my interview: From Full-Time Mom to Head of Data
+                </a>
               </p>
             </div>
 
