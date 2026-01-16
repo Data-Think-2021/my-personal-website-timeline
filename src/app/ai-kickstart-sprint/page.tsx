@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation';
 import { CalendarIcon, ClockIcon, VideoCameraIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import EmailSignup from '@/components/EmailSignup';
 
 const phases = [
   {
@@ -55,9 +56,15 @@ export default function AIKickstartSprint() {
                 <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
                   AI KICKSTART SPRINT: From AI-curious to AI-productive
                 </h1>
-                <p className="text-2xl text-gray-300 mb-4 font-semibold">
+                <p className="text-2xl text-gray-300 mb-8 font-semibold">
                   a 6-week guided program to build real AI habits for work and life
                 </p>
+                <a
+                  href="#join-sprint"
+                  className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+                >
+                  Join the Sprint
+                </a>
               </div>
 
               {/* Right Profile - Takes up 1 column */}
@@ -234,13 +241,16 @@ export default function AIKickstartSprint() {
                   <span className="text-gray-300 text-lg">Standard Price:</span>
                   <span className="text-white text-2xl font-bold">399€</span>
                 </div>
-                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg">
+                <a 
+                  href="#join-sprint"
+                  className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all cursor-pointer group"
+                >
                   <div>
                     <span className="text-white text-lg font-semibold">First Cohort &quot;Founding Member&quot; Discount:</span>
                     <p className="text-purple-100 text-sm mt-1">This special pricing is only available for our inaugural group starting February 13th, 2026.</p>
                   </div>
-                  <span className="text-white text-3xl font-bold">149€</span>
-                </div>
+                  <span className="text-white text-3xl font-bold group-hover:scale-110 transition-transform">149€</span>
+                </a>
                 <p className="text-gray-400 text-sm mt-2">
                   <strong>Scholarship Option:</strong> I reserve a small number of scholarship places for people who are motivated but currently financially constrained.{' '}
                   <a 
@@ -256,18 +266,12 @@ export default function AIKickstartSprint() {
             </div>
 
             {/* Join Section */}
-            <div className="bg-gray-800 rounded-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-white mb-4">Ready to Transform Your AI Habits?</h2>
-              <p className="text-gray-300 mb-6 text-lg">
-                Join the 6-week sprint and move from AI curious to AI productive. 
-                Build the habits and learning lifestyle that achieves more with AI.
-              </p>
-              <a
-                href="/contact"
-                className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
-              >
-                Contact Me
-              </a>
+            <div id="join-sprint" className="scroll-mt-32">
+              <EmailSignup 
+                title="Ready to Transform Your AI Habits?"
+                description="Join the 6-week sprint and move from AI curious to AI productive. Enter your email to join the waitlist and secure your spot in the first cohort."
+                buttonText="Join the Sprint"
+              />
             </div>
           </div>
         </section>
