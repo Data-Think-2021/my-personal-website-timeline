@@ -14,10 +14,10 @@ export default function Home() {
             {/* Left Content - Takes up 2 columns */}
             <div className="md:col-span-2 text-left">
               <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-                Head of Data and Cloud | Empathetic Leader
+                Helping people thrive in Data, Cloud & AI through learning and mentorship
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-              Leading data team and data science community, shaping data-driven organizations through hands-on expertise in data, cloud, and AI strategy. I help businesses build scalable data capabilities, strengthen data and AI literacy, and unlock growth through intelligent decision-making. 
+              From stay-at-home mom to Head of Data — now mentoring others to build confidence, skills, and direction to succeed in the age of AI.
               </p>
               <a
                 href="/book-call"
