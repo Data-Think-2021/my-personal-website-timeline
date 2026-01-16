@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import { CalendarIcon, ClockIcon, VideoCameraIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const phases = [
   {
@@ -48,13 +49,29 @@ export default function AIKickstartSprint() {
         {/* Hero Section */}
         <section className="pt-32 pb-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-                AI KICKSTART SPRINT: From AI-curious to AI-productive
-              </h1>
-              <p className="text-2xl text-gray-300 mb-4 font-semibold">
-                a 6-week guided program to build real AI habits for work and life
-              </p>
+            <div className="grid md:grid-cols-3 gap-12 items-center">
+              {/* Left Content - Takes up 2 columns */}
+              <div className="md:col-span-2 text-left">
+                <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
+                  AI KICKSTART SPRINT: From AI-curious to AI-productive
+                </h1>
+                <p className="text-2xl text-gray-300 mb-4 font-semibold">
+                  a 6-week guided program to build real AI habits for work and life
+                </p>
+              </div>
+
+              {/* Right Profile - Takes up 1 column */}
+              <div className="flex justify-center md:justify-end">
+                <div className="relative w-64 h-64 rounded-full overflow-hidden ring-4 ring-purple-500 ring-offset-4 ring-offset-gray-900">
+                  <Image
+                    src="/profile.jpg"
+                    alt="Xia He-Bleinagel"
+                    fill
+                    priority
+                    className="object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
