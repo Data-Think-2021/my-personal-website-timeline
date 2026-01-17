@@ -29,13 +29,13 @@ export default function Home() {
 
             {/* Right Profile - Takes up 1 column */}
             <div className="flex justify-center md:justify-center">
-              <div className="relative w-64 h-64 rounded-full overflow-hidden ring-4 ring-purple-500 ring-offset-4 ring-offset-gray-900">
+              <div className="relative w-80 h-96">
                 <Image
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt="Xia He-Bleinagel"
                   fill
                   priority
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             </div>
