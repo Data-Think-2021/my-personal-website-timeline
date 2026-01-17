@@ -9,7 +9,7 @@ const Navigation = () => {
     { href: '/', label: 'Home' },
     { href: '/ai-kickstart-sprint', label: 'AI Kickstart Sprint' },
     { href: '/blog', label: 'Blog' },
-    { href: '/coaching', label: 'Mentoring' },
+    { href: '/mentoring', label: 'Mentoring' },
     { href: '/book-call', label: 'Book a Call' },
     { href: '/contact', label: 'Contact' },
   ];
