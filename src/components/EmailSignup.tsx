@@ -48,18 +48,35 @@ export default function EmailSignup({
             />
           </div>
 
-          <div>
-            <label htmlFor="fullName" className="block text-sm font-medium mb-2 text-gray-300">
-              Full Name
-            </label>
-            <input
-              type="text"
-              id="fullName"
-              name="fullName"
-              className="w-full px-4 py-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none text-white disabled:opacity-50"
-              placeholder="Your full name"
-              disabled={isPending}
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="firstName" className="block text-sm font-medium mb-2 text-gray-300">
+                First Name
+              </label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                className="w-full px-4 py-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none text-white disabled:opacity-50"
+                placeholder="Jane"
+                required
+                disabled={isPending}
+              />
+            </div>
+            <div>
+              <label htmlFor="lastName" className="block text-sm font-medium mb-2 text-gray-300">
+                Last Name
+              </label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                className="w-full px-4 py-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none text-white disabled:opacity-50"
+                placeholder="Doe"
+                required
+                disabled={isPending}
+              />
+            </div>
           </div>
 
           <button

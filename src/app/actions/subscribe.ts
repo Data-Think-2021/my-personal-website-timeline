@@ -4,6 +4,8 @@ import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
 interface SubscribeState {
     success: boolean;
     error?: string;
@@ -11,7 +13,9 @@ interface SubscribeState {
 
 export async function subscribeToSprint(prevState: SubscribeState, formData: FormData): Promise<SubscribeState> {
     const email = formData.get('email') as string;
-    const fullName = formData.get('fullName') as string;
+    const firstName = formData.get('firstName') as string;
+    const lastName = formData.get('lastName') as string;
+    const fullName = `${firstName} ${lastName}`.trim();
 
     if (!email) {
         return { success: false, error: 'Email is required' };
@@ -32,7 +36,7 @@ export async function subscribeToSprint(prevState: SubscribeState, formData: For
             html: `
         <div style="font-family: sans-serif; font-size: 16px; color: #333;">
           <h1>You’re on the list! 🎉 <span style="font-size: 0.8em; font-weight: normal; display: block; margin-top: 5px;">(Action required to secure your spot)</span></h1>
-          <p>Hi ${fullName || 'there'},</p>
+          <p>Hi ${firstName || 'there'},</p>
           <p>Thanks for joining the waitlist for the <strong>AI Kickstart Sprint</strong>! I’m thrilled to help you move from "AI curious" to "AI productive."</p>
           <p>Because I want to keep these cohorts small and impactful, I personally manage the registration to ensure everyone gets the support they need. Here is what happens next:</p>
           
@@ -57,6 +61,9 @@ export async function subscribeToSprint(prevState: SubscribeState, formData: For
       `,
         });
 
+        // Add delay before next request to avoid rate limits (2 req/sec)
+        await delay(1000);
+
         // 2. Send Notification to Admin
         if (adminEmail) {
             try {
@@ -70,6 +77,31 @@ export async function subscribeToSprint(prevState: SubscribeState, formData: For
                 console.error('Failed to send admin notification:', adminError);
                 // Don't fail the user request if admin notification fails
             }
+        }
+
+        // Add delay before contact creation
+        await delay(1000);
+
+        // 3. Add to Resend Audience (for CSV Export)
+        const audienceId = process.env.RESEND_AUDIENCE_ID;
+        console.log('Using Audience ID:', audienceId ? 'Found' : 'Missing');
+
+        if (audienceId) {
+            try {
+                const contactResult = await resend.contacts.create({
+                    email: email,
+                    firstName: firstName,
+                    lastName: lastName,
+                    unsubscribed: false,
+                    audienceId: audienceId,
+                });
+                console.log('Contact created successfully:', contactResult);
+            } catch (contactError) {
+                console.error('Failed to add contact to audience:', contactError);
+                // Don't fail the user request if contact addition fails
+            }
+        } else {
+            console.warn('RESEND_AUDIENCE_ID is not defined, skipping contact creation.');
         }
 
 
