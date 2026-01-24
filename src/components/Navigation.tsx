@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -20,10 +21,17 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-[6.5rem]">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-              Xia He-Bleinagel
+            <Link href="/">
+              <Image
+                src="/logo.png"
+                alt="Xia He-Bleinagel"
+                width={200}
+                height={50}
+                className="h-[5.5rem] w-auto object-contain"
+                priority
+              />
             </Link>
           </div>
           {/* Desktop menu */}
