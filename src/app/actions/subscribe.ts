@@ -4,7 +4,12 @@ import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function subscribeToSprint(prevState: any, formData: FormData) {
+interface SubscribeState {
+    success: boolean;
+    error?: string;
+}
+
+export async function subscribeToSprint(prevState: SubscribeState, formData: FormData): Promise<SubscribeState> {
     const email = formData.get('email') as string;
     const fullName = formData.get('fullName') as string;
 
@@ -18,7 +23,7 @@ export async function subscribeToSprint(prevState: any, formData: FormData) {
         const replyToEmail = process.env.RESEND_REPLY_TO;
         const adminEmail = process.env.RESEND_ADMIN_EMAIL || replyToEmail;
 
-        const data = await resend.emails.send({
+        await resend.emails.send({
 
             from: `Xia from AI Kickstart <${fromEmail}>`,
             to: email,
