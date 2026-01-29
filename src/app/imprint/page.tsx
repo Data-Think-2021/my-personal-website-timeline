@@ -24,7 +24,7 @@ export default function ImprintPage() {
                     <section className="mb-8">
                         <h2 className="text-2xl font-bold text-white mb-4">Kontakt</h2>
                         <p>
-                            Email: xia.he88@gmail.com<br />
+                            Email: info@datathinker.de<br />
                             Phone: 0176 55504821
                         </p>
                     </section>

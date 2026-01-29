@@ -22,7 +22,7 @@ export default function PrivacyPage() {
                             14532 Kleinmachnow
                             <br />
                             <br />
-                            xia.he88@gmail.com
+                            info@datathinker.de
                         </p>
                     </section>
 
