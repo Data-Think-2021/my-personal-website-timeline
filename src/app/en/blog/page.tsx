@@ -9,7 +9,7 @@ export default function EnBlogPage() {
     <>
       <Navigation />
       
-      <div className="min-h-screen bg-gray-900 py-20">
+      <div className="min-h-screen bg-gray-900 pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
