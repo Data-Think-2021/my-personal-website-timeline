@@ -49,7 +49,7 @@ export default async function Image() {
             alt="Profile portrait"
             width={360}
             height={360}
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            style={{ objectFit: "cover", objectPosition: "center top" }}
           />
         </div>
       </div>
