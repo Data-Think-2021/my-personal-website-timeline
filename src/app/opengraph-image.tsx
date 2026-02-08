@@ -7,8 +7,8 @@ export const contentType = "image/png";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://datathinker.de";
 
 export default async function Image() {
-  const profileUrl = new URL("/profile-1.jpeg", siteUrl);
-  const profileImage = await fetch(profileUrl).then((res) => res.arrayBuffer());
+  const profileUrl = new URL("/profile.png", siteUrl);
+  const profileImage = await fetch(profileUrl).then((res) => res.blob());
 
   return new ImageResponse(
     (
