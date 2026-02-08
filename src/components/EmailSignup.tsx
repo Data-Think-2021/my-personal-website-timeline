@@ -7,6 +7,8 @@ interface EmailSignupProps {
   title?: string;
   description?: string;
   buttonText?: string;
+  successTitle?: string;
+  successDescription?: string;
 }
 
 const initialState = {
@@ -17,7 +19,9 @@ const initialState = {
 export default function EmailSignup({
   title = "Join the AI Kickstart Sprint",
   description = "Enter your email to join the waitlist and get notified when registration opens.",
-  buttonText = "Join the Sprint"
+  buttonText = "Join the Sprint",
+  successTitle = "You're on the waitlist and subscribed.",
+  successDescription = "Check your email for next steps. We'll be in touch soon."
 }: EmailSignupProps) {
   const [state, formAction, isPending] = useActionState(subscribeToSprint, initialState);
 
@@ -28,8 +32,8 @@ export default function EmailSignup({
 
       {state?.success ? (
         <div className="bg-green-800/50 border border-green-500 rounded-lg p-6 text-center">
-          <p className="text-green-300 text-lg mb-2">🎉 Thank you for joining!</p>
-          <p className="text-green-200">Check your email for next steps. We&apos;ll be in touch soon!</p>
+          <p className="text-green-300 text-lg mb-2">{successTitle}</p>
+          <p className="text-green-200">{successDescription}</p>
         </div>
       ) : (
         <form action={formAction} className="space-y-4">

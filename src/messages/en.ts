@@ -128,7 +128,7 @@ const en = {
   "aiSprint": {
     "headline": "AI KICKSTART SPRINT: From AI-curious to AI-productive",
     "subheadline": "a 6-week guided program to build real AI habits for work and life",
-    "cta": "Join the Sprint",
+    "cta": "Join the waitlist + get AI updates",
     "missionTitle": "The Mission",
     "mission": "You don't want to wait another year to \"start with AI.\" You want to use AI now — to work faster, think clearer, and build real things instead of just consuming content. In this 6-week sprint, you integrate AI into your daily workflow, understand how it actually works, and use the most powerful tools with confidence. You will prototype ideas quickly and build your own personal website using free tools, without programming knowledge. We focus on execution over perfection, progress over overwhelm — so you leave not inspired, but able to apply AI immediately.",
     "roadmapTitle": "The 6-Week Roadmap",
@@ -201,9 +201,12 @@ const en = {
     "foundingMemberSub": "This special pricing is only available for our inaugural group starting February 13th, 2026.",
     "scholarship": "Scholarship Option: I reserve a small number of scholarship places for people who are motivated but currently financially constrained.",
     "scholarshipLink": "Apply for scholarship here",
-    "emailSignupTitle": "Ready to Transform Your AI Habits?",
-    "emailSignupDescription": "Join the 6-week sprint and move from AI curious to AI productive. Enter your email to join the waitlist and secure your spot in the first cohort.",
-    "emailSignupButton": "Join the Sprint"
+    "cohortFullNote": "The current cohort is full. Join the waitlist and get weekly AI tips plus early access to the next cohort.",
+    "emailSignupTitle": "Join the waitlist + newsletter",
+    "emailSignupDescription": "Get priority access for the next cohort and receive practical AI tips you can use right away.",
+    "emailSignupButton": "Join the waitlist",
+    "emailSignupSuccessTitle": "You're on the waitlist and subscribed.",
+    "emailSignupSuccessDescription": "Check your email for next steps. We'll be in touch soon."
   },
   "emailSignup": {
     "emailLabel": "Email Address",

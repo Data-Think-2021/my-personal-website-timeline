@@ -128,7 +128,7 @@ const de = {
   "aiSprint": {
     "headline": "KI KICKSTART SPRINT: Von KI-neugierig zu KI-produktiv",
     "subheadline": "ein 6-wöchiges Programm, um echte KI-Gewohnheiten für Beruf und Alltag aufzubauen",
-    "cta": "Zum Sprint anmelden",
+    "cta": "Zur Warteliste + KI-Updates",
     "missionTitle": "Die Mission",
     "mission": "Du willst nicht noch ein Jahr warten, um „mit KI zu starten“. Du willst KI jetzt nutzen – schneller arbeiten, klarer denken, echte Dinge bauen statt nur zu konsumieren. In diesem 6-Wochen-Sprint integrierst du KI in deinen Arbeitsalltag, verstehst, wie sie wirklich funktioniert, und nutzt die stärksten Tools mit Selbstvertrauen. Du prototypest Ideen schnell und baust deine eigene Website mit kostenlosen Tools – ohne Programmierkenntnisse. Fokus: Umsetzung statt Perfektion, Fortschritt statt Überforderung – du gehst nicht nur inspiriert, sondern handlungsfähig raus.",
     "roadmapTitle": "Der 6-Wochen-Plan",
@@ -201,9 +201,12 @@ const de = {
     "foundingMemberSub": "Dieser Preis gilt nur für die erste Gruppe ab 13. Februar 2026.",
     "scholarship": "Stipendien: Ich vergebe eine begrenzte Anzahl Plätze an motivierte Teilnehmer:innen mit aktuell begrenzten Mitteln.",
     "scholarshipLink": "Hier um ein Stipendium bewerben",
-    "emailSignupTitle": "Bereit, deine KI-Gewohnheiten zu verändern?",
-    "emailSignupDescription": "Melde dich für den 6-Wochen-Sprint an – von KI-neugierig zu KI-produktiv. Trag dich mit deiner E-Mail ein und sichere dir einen Platz in der ersten Kohorte.",
-    "emailSignupButton": "Zum Sprint anmelden"
+    "cohortFullNote": "Die aktuelle Kohorte ist voll. Trag dich auf die Warteliste ein und erhalte wöchentliche KI-Tipps sowie frühzeitigen Zugang zur nächsten Kohorte.",
+    "emailSignupTitle": "Warteliste + Newsletter",
+    "emailSignupDescription": "Sichere dir Priorität für die nächste Kohorte und erhalte praxisnahe KI-Tipps, die du sofort nutzen kannst.",
+    "emailSignupButton": "Zur Warteliste",
+    "emailSignupSuccessTitle": "Du bist auf der Warteliste und abonniert.",
+    "emailSignupSuccessDescription": "Schau in dein Postfach für die nächsten Schritte. Ich melde mich bald bei dir."
   },
   "emailSignup": {
     "emailLabel": "E-Mail-Adresse",

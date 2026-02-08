@@ -29,6 +29,9 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
                 <p className="text-2xl text-gray-300 mb-8 font-semibold">
                   {t('aiSprint.subheadline')}
                 </p>
+                <p className="text-gray-400 mb-6">
+                  {t('aiSprint.cohortFullNote')}
+                </p>
                 <a
                   href="#join-sprint"
                   className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
@@ -200,6 +203,8 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
                 title={t('aiSprint.emailSignupTitle')}
                 description={t('aiSprint.emailSignupDescription')}
                 buttonText={t('aiSprint.emailSignupButton')}
+                successTitle={t('aiSprint.emailSignupSuccessTitle')}
+                successDescription={t('aiSprint.emailSignupSuccessDescription')}
               />
             </div>
           </div>
