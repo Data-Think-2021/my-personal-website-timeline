@@ -14,9 +14,9 @@ const Navigation = () => {
   const links = [
     { href: prefix || '/', label: t('nav.home') },
     { href: `${prefix}/ai-kickstart-sprint`, label: t('nav.aiSprint') },
-    { href: '/blog', label: t('nav.blog') },
+    { href: `${prefix}/blog`, label: t('nav.blog') },
     { href: `${prefix}/mentoring`, label: t('nav.mentoring') },
-    { href: '/book-call', label: t('nav.bookCall') },
+    { href: `${prefix}/book-call`, label: t('nav.bookCall') },
     { href: `${prefix}/contact`, label: t('nav.contact') },
   ];
 
