@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import AISprintContent from "@/components/AISprintContent";
 
 export const metadata: Metadata = {
-  title: "AI Kickstart Sprint: From AI-curious to AI-productive",
+  title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
   description:
     "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
   openGraph: {
-    title: "AI Kickstart Sprint: From AI-curious to AI-productive",
+    title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
     description:
       "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
     url: "/ai-kickstart-sprint",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Kickstart Sprint: From AI-curious to AI-productive",
+    title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
     description:
       "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
     images: ["/ai-kickstart-sprint/opengraph-image"],

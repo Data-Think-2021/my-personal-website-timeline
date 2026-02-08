@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.datathinker.de"),
-  title: "Empowering Women in Tech through Data, Cloud & AI",
+  title: "Helping people thrive in Data, Cloud & AI through learning and mentorship",
   description: "Data leader providing mentorship for transition to tech, career growth, entrepreneur journey, and women empowerment",
   openGraph: {
-    title: "Empowering Women in Tech through Data, Cloud & AI",
+    title: "Helping people thrive in Data, Cloud & AI through learning and mentorship",
     description: "Data leader providing mentorship for transition to tech, career growth, entrepreneur journey, and women empowerment",
     url: "/",
     siteName: "DataThinker",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Empowering Women in Tech through Data, Cloud & AI",
+    title: "Helping people thrive in Data, Cloud & AI through learning and mentorship",
     description: "Data leader providing mentorship for transition to tech, career growth, entrepreneur journey, and women empowerment",
     images: ["/opengraph-image"],
   },
