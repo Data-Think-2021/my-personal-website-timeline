@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
+import LangSetter from "@/components/LangSetter";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,8 +17,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="de" suppressHydrationWarning>
       <body className={inter.className}>
+        <LangSetter />
         <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
           {children}
         </main>

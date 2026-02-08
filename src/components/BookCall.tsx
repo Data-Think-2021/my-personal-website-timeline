@@ -1,16 +1,18 @@
 'use client';
 
 import Script from 'next/script';
+import { useLocale } from '@/hooks/useLocale';
 
 const BookCall = () => {
+  const { t } = useLocale();
   return (
     <>
       {/* Intro Section */}
       <div className="pt-20 pb-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-8">Book Your Free Discovery Call</h2>
+          <h2 className="text-4xl font-bold text-center mb-8">{t('bookCall.title')}</h2>
           <p className="text-gray-300 text-center">
-            Book your free discovery call to explore how we can accelerate your success and turn your ambitions into reality.
+            {t('bookCall.description')}
           </p>
         </div>
       </div>
