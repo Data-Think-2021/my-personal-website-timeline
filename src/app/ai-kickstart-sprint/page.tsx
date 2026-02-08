@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "/ai-kickstart-sprint",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/ai-kickstart-sprint/opengraph-image",
         width: 1200,
         height: 630,
         alt: "AI Kickstart Sprint",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "AI Kickstart Sprint: From AI-curious to AI-productive",
     description:
       "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
-    images: ["/opengraph-image"],
+    images: ["/ai-kickstart-sprint/opengraph-image"],
   },
 };
 

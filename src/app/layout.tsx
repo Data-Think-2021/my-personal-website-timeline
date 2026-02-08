@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://datathinker.de"),
+  metadataBase: new URL("https://www.datathinker.de"),
   title: "Empowering Women in Tech through Data, Cloud & AI",
   description: "Data leader providing mentorship for transition to tech, career growth, entrepreneur journey, and women empowerment",
   openGraph: {
