@@ -35,27 +35,12 @@ export async function subscribeToSprint(prevState: SubscribeState, formData: For
             subject: 'Welcome to the AI Kickstart Sprint Waitlist! 🚀',
             html: `
         <div style="font-family: sans-serif; font-size: 16px; color: #333;">
-          <h1>You’re on the list! 🎉 <span style="font-size: 0.8em; font-weight: normal; display: block; margin-top: 5px;">(Action required to secure your spot)</span></h1>
+          <h1>You're on the list! 🎉</h1>
           <p>Hi ${firstName || 'there'},</p>
-          <p>Thanks for joining the waitlist for the <strong>AI Kickstart Sprint</strong>! I’m thrilled to help you move from "AI curious" to "AI productive."</p>
-          <p>Because I want to keep these cohorts small and impactful, I personally manage the registration to ensure everyone gets the support they need. Here is what happens next:</p>
-          
-          <h2 style="font-size: 18px; margin-top: 25px;">🚀 How to Secure Your Seat</h2>
-          <p>The first cohort starts on the 13th February and further cohorts are planned. To ensure a high-quality experience, seats are limited and are secured only upon payment.</p>
-          <p><strong>Investment: €149 (all-inclusive).</strong></p>
-          <p>Payment per PayPal or IBAN. Invoice will be provided if you need. Please contact me.</p>
-
-          <h2 style="font-size: 18px; margin-top: 25px;">🌍 A Quick Question for You</h2>
-          <p>To make sure this sprint is perfectly tailored to you, could you hit "Reply" and let me know two things?</p>
-          <ul style="padding-left: 20px;">
-            <li><strong>Language Preference:</strong> Would you prefer the cohort to be in English or German or both is fine?</li>
-            <li style="margin-top: 10px;"><strong>Your Goal:</strong> What is the main motivation for joining this cohort?</li>
-          </ul>
-
-          <h2 style="font-size: 18px; margin-top: 25px;">🗓️ Can't make the first one?</h2>
-          <p>No worries! If the upcoming dates don't work for you, don't sweat it. There are more cohorts coming, and as a waitlist member, you'll get priority notification for every single one.</p>
-          
-          <p style="margin-top: 30px;">I’m looking forward to building these habits with you.</p>
+          <p>Thanks so much for joining the waitlist for the <strong>AI Kickstart Sprint</strong>!</p>
+          <p>Our current cohort is already underway, and the next one will be announced soon. As a waitlist member, you'll be the first to know when new dates are available.</p>
+          <p>In the meantime, if you have any questions at all, please don't hesitate to reach out — just hit "Reply" and I'll be happy to help.</p>
+          <p style="margin-top: 30px;">Looking forward to connecting with you!</p>
           <p>Best regards,<br>Xia He-Bleinagel</p>
         </div>
       `,
