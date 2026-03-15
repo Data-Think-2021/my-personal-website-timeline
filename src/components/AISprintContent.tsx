@@ -170,19 +170,12 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">{t('aiSprint.investmentTitle')}</h2>
               <div className="space-y-4">
-                <div className="flex items-center justify-between p-4 bg-gray-700 rounded-lg">
-                  <span className="text-gray-300 text-lg">{t('aiSprint.standardPrice')}</span>
-                  <span className="text-white text-2xl font-bold">399€</span>
-                </div>
                 <a
                   href="#join-sprint"
                   className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all cursor-pointer group"
                 >
-                  <div>
-                    <span className="text-white text-lg font-semibold">{t('aiSprint.foundingMember')}</span>
-                    <p className="text-purple-100 text-sm mt-1">{t('aiSprint.foundingMemberSub')}</p>
-                  </div>
-                  <span className="text-white text-3xl font-bold group-hover:scale-110 transition-transform">149€</span>
+                  <span className="text-white text-lg font-semibold">{t('aiSprint.standardPrice')}</span>
+                  <span className="text-white text-3xl font-bold group-hover:scale-110 transition-transform">399€</span>
                 </a>
                 <p className="text-gray-400 text-sm mt-2">
                   {t('aiSprint.scholarship')}{' '}
