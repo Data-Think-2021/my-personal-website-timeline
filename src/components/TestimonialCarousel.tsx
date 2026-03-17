@@ -1,12 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 
 interface Testimonial {
   quote: string;
   author: string;
   role: string;
+  imageSrc?: string;
 }
 
 export default function TestimonialCarousel({
@@ -30,11 +32,23 @@ export default function TestimonialCarousel({
             key={page * perPage + i}
             className="bg-gray-800 rounded-lg p-8 flex flex-col items-center text-center gap-4"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center flex-shrink-0">
-              <span className="text-white text-2xl font-bold">
-                {t.author.charAt(0)}
-              </span>
-            </div>
+            {t.imageSrc ? (
+              <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                <Image
+                  src={t.imageSrc}
+                  alt={`Photo of ${t.author}`}
+                  width={64}
+                  height={64}
+                  className="w-16 h-16 object-cover"
+                />
+              </div>
+            ) : (
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center flex-shrink-0">
+                <span className="text-white text-2xl font-bold">
+                  {t.author.charAt(0)}
+                </span>
+              </div>
+            )}
             <div>
               <p className="text-gray-300 italic leading-relaxed mb-4">
                 &ldquo;{t.quote}&rdquo;
