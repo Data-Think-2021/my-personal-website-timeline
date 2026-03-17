@@ -37,6 +37,11 @@ const Footer = () => {
                   {t('nav.aiSprint')}
                 </Link>
               </li>
+              <li>
+                <a href="https://data-think-2021.github.io/ai-mastery-hub/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {t('nav.aiPrograms')}
+                </a>
+              </li>
             </ul>
           </div>
           <div>

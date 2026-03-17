@@ -3,6 +3,7 @@ import { CalendarIcon, ClockIcon, VideoCameraIcon, UserGroupIcon } from '@heroic
 import Navigation from '@/components/Navigation';
 import EmailSignup from '@/components/EmailSignup';
 import { getMessage, getTranslation, type Locale } from '@/lib/i18n';
+import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 interface Phase {
   phase: string;
@@ -115,6 +116,15 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
                 </a>
               </p>
             </div>
+
+            <TestimonialCarousel
+              title={t('aiSprint.testimonialsTitle')}
+              testimonials={[1, 2, 3].map((i) => ({
+                quote: t(`aiSprint.sprintTestimonial${i}`),
+                author: t(`aiSprint.sprintTestimonial${i}Author`),
+                role: t(`aiSprint.sprintTestimonial${i}Role`),
+              }))}
+            />
 
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">{t('aiSprint.structureTitle')}</h2>

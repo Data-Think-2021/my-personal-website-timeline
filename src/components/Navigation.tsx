@@ -14,6 +14,7 @@ const Navigation = () => {
   const links = [
     { href: prefix || '/', label: t('nav.home') },
     { href: `${prefix}/ai-kickstart-sprint`, label: t('nav.aiSprint') },
+    { href: 'https://data-think-2021.github.io/ai-mastery-hub/', label: t('nav.aiPrograms'), external: true },
     { href: `${prefix}/blog`, label: t('nav.blog') },
     { href: `${prefix}/mentoring`, label: t('nav.mentoring') },
     { href: `${prefix}/book-call`, label: t('nav.bookCall') },
@@ -40,19 +41,31 @@ const Navigation = () => {
           </div>
           <div className="hidden md:flex items-center gap-4">
             <div className="flex items-baseline space-x-4">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors
-                    ${pathname === link.href
-                      ? 'bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text font-bold'
-                      : 'text-gray-300 hover:text-white'}
-                  `}
-                >
-                  {link.label}
-                </Link>
-              ))}
+              {links.map((link) =>
+                link.external ? (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-2 rounded-md text-sm font-medium transition-colors text-gray-300 hover:text-white"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors
+                      ${pathname === link.href
+                        ? 'bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text font-bold'
+                        : 'text-gray-300 hover:text-white'}
+                    `}
+                  >
+                    {link.label}
+                  </Link>
+                )
+              )}
             </div>
             <div className="ml-4 flex items-center border-l border-gray-600 pl-4">
               <Link
@@ -88,20 +101,33 @@ const Navigation = () => {
       {menuOpen && (
         <div className="md:hidden bg-gray-900/95 px-4 pb-4 pt-2">
           <div className="flex flex-col space-y-2">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className={`block px-3 py-2 rounded-md text-base font-medium transition-colors
-                  ${pathname === link.href
-                    ? 'bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text font-bold'
-                    : 'text-gray-300 hover:text-white'}
-                `}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {links.map((link) =>
+              link.external ? (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMenuOpen(false)}
+                  className="block px-3 py-2 rounded-md text-base font-medium transition-colors text-gray-300 hover:text-white"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors
+                    ${pathname === link.href
+                      ? 'bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text font-bold'
+                      : 'text-gray-300 hover:text-white'}
+                  `}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
             <div className="flex items-center gap-2 pt-2 border-t border-gray-700">
               <Link
                 href={localizedPath('de')}
