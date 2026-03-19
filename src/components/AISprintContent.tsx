@@ -56,7 +56,7 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
         </section>
 
         <section className="py-20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-3">{t('aiSprint.missionTitle')}</h2>
               <p className="text-gray-300 text-lg leading-relaxed">{t('aiSprint.mission')}</p>
@@ -117,16 +117,18 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
               </p>
             </div>
 
-            <TestimonialCarousel
-              title={t('aiSprint.testimonialsTitle')}
-              seeMoreLabel={t('aiSprint.seeMoreTestimonials')}
-              testimonials={[1, 2, 3].map((i) => ({
-                quote: t(`aiSprint.sprintTestimonial${i}`),
-                author: t(`aiSprint.sprintTestimonial${i}Author`),
-                role: t(`aiSprint.sprintTestimonial${i}Role`),
-                imageSrc: i === 1 ? '/katharina-schoeninger.png' : i === 3 ? '/nan-ha.png' : undefined,
-              }))}
-            />
+            <div className="max-w-5xl mx-auto">
+              <TestimonialCarousel
+                title={t('aiSprint.testimonialsTitle')}
+                seeMoreLabel={t('aiSprint.seeMoreTestimonials')}
+                testimonials={[1, 2, 3].map((i) => ({
+                  quote: t(`aiSprint.sprintTestimonial${i}`),
+                  author: t(`aiSprint.sprintTestimonial${i}Author`),
+                  role: t(`aiSprint.sprintTestimonial${i}Role`),
+                  imageSrc: i === 1 ? '/katharina-schoeninger.png' : i === 3 ? '/nan-ha.png' : undefined,
+                }))}
+              />
+            </div>
 
             <div className="bg-gray-800 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">{t('aiSprint.structureTitle')}</h2>

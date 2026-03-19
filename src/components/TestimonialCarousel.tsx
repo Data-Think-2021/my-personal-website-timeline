@@ -33,7 +33,7 @@ export default function TestimonialCarousel({
         {visible.map((t, i) => (
           <div
             key={page * perPage + i}
-            className="bg-gray-800 rounded-lg p-8 flex flex-col items-center text-center gap-4"
+            className="w-full max-w-sm md:max-w-none mx-auto bg-gray-800 rounded-lg p-8 flex flex-col items-center text-center gap-4"
           >
             {t.imageSrc ? (
               <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
