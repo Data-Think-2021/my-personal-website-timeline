@@ -189,7 +189,7 @@ const en = {
     "sprintTestimonial2": "The AI Kickstart Sprint gave me a structured overview of the AI ecosystem and introduced practical tools that I can apply immediately. I especially valued learning how to deploy a personal website using the tools we covered, as well as the consistent learning habits Xia encouraged throughout the sprint.",
     "sprintTestimonial2Author": "Minying Feng",
     "sprintTestimonial2Role": "Manager Digital Transformation",
-    "sprintTestimonial3": "I enjoy discovering many useful AI tools for work and life. At the same time, I feel there are so many things I need to explore. The sprint was a good introduction to the world of AI. I recommend this course for those who want to boost their productivity at home and at work through AI. It provides a basic understanding of AI and helps you start integrating it into your daily life and work.",
+    "sprintTestimonial3": "I really enjoyed discovering a wide range of practical AI tools for both work and everyday life. At the same time, the field of AI can feel overwhelming because there is so much to explore. This sprint was an excellent introduction to the world of AI, giving me a strong foundation and the confidence to start using it more intentionally. I would recommend this course to anyone who wants to boost productivity at home and at work through AI. It provides a clear understanding of the basics and helps you begin integrating AI into your daily routines and professional tasks.",
     "sprintTestimonial3Author": "Nan Ha",
     "sprintTestimonial3Role": "Researcher",
     "seeMoreTestimonials": "See more",

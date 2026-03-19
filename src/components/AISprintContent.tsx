@@ -24,7 +24,7 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-3 gap-12 items-center">
               <div className="md:col-span-2 text-left">
-                <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
+                <h1 className="text-5xl font-bold leading-[1.15] pb-1 mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
                   {t('aiSprint.headline')}
                 </h1>
                 <p className="text-2xl text-gray-300 mb-8 font-semibold">
