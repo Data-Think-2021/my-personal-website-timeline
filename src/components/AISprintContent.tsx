@@ -119,11 +119,12 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
 
             <TestimonialCarousel
               title={t('aiSprint.testimonialsTitle')}
+              seeMoreLabel={t('aiSprint.seeMoreTestimonials')}
               testimonials={[1, 2, 3].map((i) => ({
                 quote: t(`aiSprint.sprintTestimonial${i}`),
                 author: t(`aiSprint.sprintTestimonial${i}Author`),
                 role: t(`aiSprint.sprintTestimonial${i}Role`),
-                imageSrc: i === 1 ? '/katharina-schoeninger.png' : undefined,
+                imageSrc: i === 1 ? '/katharina-schoeninger.png' : i === 3 ? '/nan-ha.png' : undefined,
               }))}
             />
 

@@ -14,19 +14,22 @@ interface Testimonial {
 export default function TestimonialCarousel({
   title,
   testimonials,
+  seeMoreLabel = 'See more',
 }: {
   title: string;
   testimonials: Testimonial[];
+  seeMoreLabel?: string;
 }) {
   const [page, setPage] = useState(0);
-  const perPage = 2;
+  const perPage = 3;
   const totalPages = Math.ceil(testimonials.length / perPage);
   const visible = testimonials.slice(page * perPage, page * perPage + perPage);
+  const hasMultiplePages = totalPages > 1;
 
   return (
     <div className="mb-12">
       <h2 className="text-3xl font-bold text-white mb-8 text-center">{title}</h2>
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-3">
         {visible.map((t, i) => (
           <div
             key={page * perPage + i}
@@ -60,7 +63,7 @@ export default function TestimonialCarousel({
         ))}
       </div>
 
-      {totalPages > 1 && (
+      {hasMultiplePages && (
         <div className="flex items-center justify-center gap-4 mt-8">
           <button
             onClick={() => setPage((p) => Math.max(0, p - 1))}
@@ -92,6 +95,19 @@ export default function TestimonialCarousel({
           </button>
         </div>
       )}
+      <div className="mt-4 text-center">
+        <button
+          onClick={() => hasMultiplePages && setPage((p) => (p + 1) % totalPages)}
+          className={`text-sm underline transition-colors ${
+            hasMultiplePages
+              ? 'text-purple-400 hover:text-purple-300'
+              : 'text-gray-400 cursor-not-allowed'
+          }`}
+          aria-disabled={!hasMultiplePages}
+        >
+          {seeMoreLabel}
+        </button>
+      </div>
     </div>
   );
 }
