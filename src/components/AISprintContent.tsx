@@ -121,7 +121,7 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
               <TestimonialCarousel
                 title={t('aiSprint.testimonialsTitle')}
                 seeMoreLabel={t('aiSprint.seeMoreTestimonials')}
-                testimonials={[1, 2, 3, 4].map((i) => ({
+                testimonials={[1, 2, 3, 4, 5].map((i) => ({
                   quote: t(`aiSprint.sprintTestimonial${i}`),
                   author: t(`aiSprint.sprintTestimonial${i}Author`),
                   role: t(`aiSprint.sprintTestimonial${i}Role`),
