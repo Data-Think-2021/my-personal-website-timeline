@@ -14,7 +14,6 @@ const Navigation = () => {
   const links = [
     { href: prefix || '/', label: t('nav.home') },
     { href: `${prefix}/ai-kickstart-sprint`, label: t('nav.aiSprint') },
-    { href: 'https://data-think-2021.github.io/ai-mastery-hub/', label: t('nav.aiPrograms'), external: true },
     { href: `${prefix}/blog`, label: t('nav.blog') },
     { href: `${prefix}/mentoring`, label: t('nav.mentoring') },
     { href: `${prefix}/book-call`, label: t('nav.bookCall') },

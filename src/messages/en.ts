@@ -2,7 +2,7 @@ const en = {
   "nav": {
     "home": "Home",
     "aiSprint": "AI Kickstart Sprint",
-    "aiPrograms": "AI Programs",
+
     "blog": "Blog",
     "mentoring": "Mentoring",
     "bookCall": "Book a Call",

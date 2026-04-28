@@ -2,7 +2,7 @@ const de = {
   "nav": {
     "home": "Start",
     "aiSprint": "KI Kickstart Sprint",
-    "aiPrograms": "KI Programme",
+
     "blog": "Blog",
     "mentoring": "Mentoring",
     "bookCall": "Termin buchen",
