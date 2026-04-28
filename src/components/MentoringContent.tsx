@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { getLocalePrefix, getMessage, getTranslation, type Locale } from '@/lib/i18n';
 
-const AREA_KEYS = ['transitionToTech', 'careerGrowth', 'entrepreneurJourney', 'womenEmpowerment'] as const;
+const PACKAGE_KEYS = ['womenEmpowerment', 'transitionToTechAndCareer', 'sideProjectAndEntrepreneurship'] as const;
 
-interface MentoringArea {
+interface MentoringPackage {
   title: string;
   description: string;
   features: string[];
@@ -13,14 +13,14 @@ interface MentoringArea {
 export default function MentoringContent({ locale }: { locale: Locale }) {
   const t = (key: string) => getTranslation(locale, key);
   const prefix = getLocalePrefix(locale);
-  const areasObj = getMessage(locale, 'mentoring.areas') as Record<string, MentoringArea> | undefined;
-  const mentoringAreas = AREA_KEYS.map((key) => areasObj?.[key]).filter(Boolean) as MentoringArea[];
+  const packagesObj = getMessage(locale, 'mentoring.packages') as Record<string, MentoringPackage> | undefined;
+  const packages = PACKAGE_KEYS.map((key) => packagesObj?.[key]).filter(Boolean) as MentoringPackage[];
 
   return (
     <>
       <Navigation />
       <div className="pt-32 px-4 min-h-screen">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">{t('mentoring.title')}</h1>
           <p className="text-xl text-gray-300 mb-8">{t('mentoring.intro')}</p>
 
@@ -36,19 +36,52 @@ export default function MentoringContent({ locale }: { locale: Locale }) {
             </ul>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 mb-12">
-            {mentoringAreas.map((area, index) => (
-              <div key={index} className="bg-gray-800 rounded-lg p-6">
-                <h2 className="text-2xl font-semibold mb-4">{area.title}</h2>
-                <p className="text-gray-300 mb-6">{area.description}</p>
-                <ul className="space-y-2">
-                  {area.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start">
-                      <span className="text-purple-400 mr-2">•</span>
-                      <span className="text-gray-300">{feature}</span>
-                    </li>
-                  ))}
+          <div className="grid gap-8 md:grid-cols-3 mb-12">
+            {packages.map((pkg, index) => (
+              <div key={index} className="bg-gray-800 rounded-lg p-6 flex flex-col border border-gray-700 hover:border-purple-500 transition-colors">
+                <h2 className="text-xl font-semibold mb-3">{pkg.title}</h2>
+                <p className="text-gray-300 text-sm mb-5">{pkg.description}</p>
+
+                <div className="mb-5">
+                  <span className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                    {t('mentoring.packagePrice')}
+                  </span>
+                </div>
+
+                <ul className="space-y-2 text-sm text-gray-300 mb-6">
+                  <li className="flex items-center">
+                    <span className="text-purple-400 mr-2">✓</span>
+                    {t('mentoring.packageDuration')}
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-purple-400 mr-2">✓</span>
+                    {t('mentoring.packageSessions')}
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-purple-400 mr-2">✓</span>
+                    {t('mentoring.packageMaterials')}
+                  </li>
                 </ul>
+
+                <div className="border-t border-gray-700 pt-5 mb-5">
+                  <ul className="space-y-2">
+                    {pkg.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-start text-sm">
+                        <span className="text-purple-400 mr-2 mt-0.5">•</span>
+                        <span className="text-gray-300">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="mt-auto">
+                  <Link
+                    href={`${prefix}/book-call`}
+                    className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                  >
+                    {t('mentoring.packageCta')}
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
@@ -90,7 +123,7 @@ export default function MentoringContent({ locale }: { locale: Locale }) {
             <h2 className="text-2xl font-semibold mb-6">{t('mentoring.ctaTitle')}</h2>
             <p className="text-gray-300 mb-8">{t('mentoring.ctaDescription')}</p>
             <Link
-              href={`${prefix}/contact`}
+              href={`${prefix}/book-call`}
               className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
             >
               {t('mentoring.ctaButton')}

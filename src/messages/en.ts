@@ -52,37 +52,12 @@ const en = {
     "whyWorkWithMe2": "Broad experience across research institutes as well as small, medium, and large consulting organizations in data and AI",
     "whyWorkWithMe3": "Proven ability to navigate career transitions and change roles strategically in a fast-moving job market",
     "whyWorkWithMe4": "Hands-on experience across multiple data roles, including Data Analyst, Data Engineer, Data Scientist, and now Data Leader",
-    "areas": {
-      "transitionToTech": {
-        "title": "Transition to Tech",
-        "description": "Guidance for career changers and those entering the tech industry for the first time.",
-        "features": [
-          "Identifying your transferable skills",
-          "Building technical foundations",
-          "Navigating the job market as a newcomer",
-          "Overcoming imposter syndrome and building confidence"
-        ]
-      },
-      "careerGrowth": {
-        "title": "Career Growth",
-        "description": "Strategic mentorship to advance your tech career and reach your professional goals.",
-        "features": [
-          "Career path planning and goal setting",
-          "Technical interview preparation",
-          "Leadership skill development",
-          "Personal brand building and networking"
-        ]
-      },
-      "entrepreneurJourney": {
-        "title": "Entrepreneur Journey",
-        "description": "Mentorship for building side projects and transitioning to entrepreneurship in tech.",
-        "features": [
-          "Side project development and monetization",
-          "Consulting business setup and growth",
-          "Client acquisition and relationship building",
-          "Balancing full-time work with entrepreneurial ventures"
-        ]
-      },
+    "packagePrice": "499 €",
+    "packageDuration": "3 months",
+    "packageSessions": "4 × 45 min 1:1 sessions",
+    "packageMaterials": "Curated materials & resources",
+    "packageCta": "Book Your Free Discovery Call",
+    "packages": {
       "womenEmpowerment": {
         "title": "Women Empowerment",
         "description": "Specialized mentorship for women navigating and thriving in the tech industry.",
@@ -91,6 +66,26 @@ const en = {
           "Building confidence in technical and leadership roles",
           "Networking strategies and community building",
           "Work-life balance and self-advocacy"
+        ]
+      },
+      "transitionToTechAndCareer": {
+        "title": "Transition to Tech & Career",
+        "description": "Guidance for career changers entering tech and strategic mentorship to advance your professional goals.",
+        "features": [
+          "Identifying your transferable skills and building technical foundations",
+          "Navigating the job market as a newcomer",
+          "Career path planning and goal setting",
+          "Technical interview preparation and personal brand building"
+        ]
+      },
+      "sideProjectAndEntrepreneurship": {
+        "title": "Side Project & Entrepreneurship",
+        "description": "Mentorship for building side projects and transitioning to entrepreneurship in tech.",
+        "features": [
+          "Side project development and monetization",
+          "Consulting business setup and growth",
+          "Client acquisition and relationship building",
+          "Balancing full-time work with entrepreneurial ventures"
         ]
       }
     },
@@ -103,7 +98,7 @@ const en = {
     "testimonial3Author": "— Katharina S., Freelancer",
     "ctaTitle": "Ready to take the next step in your journey?",
     "ctaDescription": "Let's discuss how mentorship can help you build confidence, develop skills, and find direction in your career.",
-    "ctaButton": "Contact Me"
+    "ctaButton": "Book Your Free Discovery Call"
   },
   "bookCall": {
     "title": "Book Your Free Discovery Call",

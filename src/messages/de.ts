@@ -52,37 +52,12 @@ const de = {
     "whyWorkWithMe2": "Breite Erfahrung in Forschungsinstituten sowie in kleinen, mittleren und großen Beratungsunternehmen in Data und KI",
     "whyWorkWithMe3": "Bewährte Fähigkeit, Karrierewechsel zu meistern und Rollen strategisch in einem dynamischen Arbeitsmarkt zu gestalten",
     "whyWorkWithMe4": "Praktische Erfahrung in verschiedenen Data-Rollen: Data Analyst, Data Engineer, Data Scientist und heute Data Leader",
-    "areas": {
-      "transitionToTech": {
-        "title": "Quereinstieg in Tech",
-        "description": "Orientierung für Berufswechsler:innen und alle, die neu in die Tech-Branche einsteigen.",
-        "features": [
-          "Transferable Skills erkennen",
-          "Technische Grundlagen aufbauen",
-          "Als Einsteiger:in den Arbeitsmarkt navigieren",
-          "Impostor-Syndrom überwinden und Selbstvertrauen aufbauen"
-        ]
-      },
-      "careerGrowth": {
-        "title": "Karriereentwicklung",
-        "description": "Strategisches Mentoring, um deine Tech-Karriere voranzubringen und deine Ziele zu erreichen.",
-        "features": [
-          "Karriereplanung und Zielsetzung",
-          "Vorbereitung auf technische Interviews",
-          "Führungs- und Kommunikationskompetenz",
-          "Personal Brand und Networking"
-        ]
-      },
-      "entrepreneurJourney": {
-        "title": "Unternehmerische Wege",
-        "description": "Mentoring für Side Projects und den Übergang in die Selbstständigkeit im Tech-Bereich.",
-        "features": [
-          "Side Projects entwickeln und monetarisieren",
-          "Beratungsgeschäft aufbauen und skalieren",
-          "Kundengewinnung und Beziehungsaufbau",
-          "Vollzeitjob und unternehmerische Projekte vereinbaren"
-        ]
-      },
+    "packagePrice": "499 €",
+    "packageDuration": "3 Monate",
+    "packageSessions": "4 × 45 Min. 1:1-Sessions",
+    "packageMaterials": "Kuratierte Materialien & Ressourcen",
+    "packageCta": "Kostenloses Erstgespräch buchen",
+    "packages": {
       "womenEmpowerment": {
         "title": "Frauen stärken",
         "description": "Spezielles Mentoring für Frauen, die in der Tech-Branche ihren Weg gehen und durchstarten wollen.",
@@ -91,6 +66,26 @@ const de = {
           "Selbstvertrauen in technischen und Führungsrollen",
           "Networking und Community",
           "Work-Life-Balance und Selbstbehauptung"
+        ]
+      },
+      "transitionToTechAndCareer": {
+        "title": "Quereinstieg in Tech & Karriere",
+        "description": "Orientierung für Berufswechsler:innen und strategisches Mentoring, um deine Karriereziele zu erreichen.",
+        "features": [
+          "Transferable Skills erkennen und technische Grundlagen aufbauen",
+          "Als Einsteiger:in den Arbeitsmarkt navigieren",
+          "Karriereplanung und Zielsetzung",
+          "Interviewvorbereitung und Personal Branding"
+        ]
+      },
+      "sideProjectAndEntrepreneurship": {
+        "title": "Side Project & Unternehmertum",
+        "description": "Mentoring für Side Projects und den Übergang in die Selbstständigkeit im Tech-Bereich.",
+        "features": [
+          "Side Projects entwickeln und monetarisieren",
+          "Beratungsgeschäft aufbauen und skalieren",
+          "Kundengewinnung und Beziehungsaufbau",
+          "Vollzeitjob und unternehmerische Projekte vereinbaren"
         ]
       }
     },
@@ -103,7 +98,7 @@ const de = {
     "testimonial3Author": "— Katharina S., Freelancerin",
     "ctaTitle": "Bereit für den nächsten Schritt?",
     "ctaDescription": "Lass uns besprechen, wie Mentoring dir hilft, Selbstvertrauen und Klarheit für deine Karriere zu gewinnen.",
-    "ctaButton": "Kontakt aufnehmen"
+    "ctaButton": "Kostenloses Erstgespräch buchen"
   },
   "bookCall": {
     "title": "Buchen Sie Ihr kostenloses Erstgespräch",
