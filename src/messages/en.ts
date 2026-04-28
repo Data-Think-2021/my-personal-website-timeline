@@ -124,7 +124,7 @@ const en = {
   "aiSprint": {
     "headline": "AI KICKSTART SPRINT: From AI-curious to AI-productive",
     "subheadline": "a 6-week guided program to build real AI habits for work and life",
-    "cta": "Join the waitlist + get AI updates",
+    "cta": "Join the cohort + get AI updates",
     "missionTitle": "The Mission",
     "mission": "You don't want to wait another year to \"start with AI.\" You want to use AI now — to work faster, think clearer, and build real things instead of just consuming content. In this 6-week sprint, you integrate AI into your daily workflow, understand how it actually works, and use the most powerful tools with confidence. You will prototype ideas quickly and build your own personal website using free tools, without programming knowledge. We focus on execution over perfection, progress over overwhelm — so you leave not inspired, but able to apply AI immediately.",
     "roadmapTitle": "The 6-Week Roadmap",
@@ -132,38 +132,38 @@ const en = {
       {
         "phase": "Week 1",
         "title": "Kick-off & The AI Foundation",
-        "days": "13. February 2026",
+        "days": "22. May 2026",
         "focus": "Setting up your environment, playing rules, the powerful learning habit system, and understanding how GenAI/LLMs actually work."
       },
       {
         "phase": "Week 2",
         "title": "The Swiss Army Knife",
-        "days": "20. February 2026",
+        "days": "29. May 2026",
         "focus": "AI toolset. Master the essentials of Text, Video, Image, and Audio AI."
       },
       {
         "phase": "Week 3",
         "title": "AI at Work",
-        "days": "27. February 2026",
+        "days": "5. June 2026",
         "focus": "Using AI for high-impact work, presentations, automating routine tasks, and communication."
       },
       {
         "phase": "Week 4",
-        "title": "AI to improve life",
-        "days": "6. March 2026",
-        "focus": "Use AI as personal assistant and be creative with it to enhance your daily life."
+        "title": "Automation with AI",
+        "days": "12. June 2026",
+        "focus": "Automate repetitive workflows using AI agents and tools. Learn to connect systems and let AI handle routine processes so you can focus on what matters."
       },
       {
         "phase": "Week 5",
-        "title": "Vibe Coding & Personal Website",
-        "days": "13. March 2026",
+        "title": "Vibe Coding",
+        "days": "19. June 2026",
         "focus": "Building your own personal website or AI Agent. Experience \"Vibe Coding\"—creating functional software without programming knowledge."
       },
       {
         "phase": "Week 6",
-        "title": "Final Project",
-        "days": "20. March 2026",
-        "focus": "\"Build your own project.\" You will leave this cohort with a finished, functional AI solution tailored to your specific needs."
+        "title": "Build Personal Website",
+        "days": "26. June 2026",
+        "focus": "Use vibe coding to create and deploy your own personal website on a free hosting service."
       }
     ],
     "goalGroupTitle": "The Goal Group",
@@ -200,23 +200,26 @@ const en = {
     "time": "Time:",
     "timeValue": "12:00 – 12:45 Berlin Time (45 minutes per session)",
     "cohortDates": "Cohort Dates:",
-    "cohortDatesValue": "13. February – 20. March 2026",
+    "cohortDatesValue": "22. May – 26. June 2026",
     "format": "Format:",
-    "formatValue": "6 Weeks of Live Sessions",
+    "formatValue": "6 Weeks of Live Sessions + 2 × 30 min Office Hours",
+    "officeHours": "Office Hours:",
+    "officeHoursValue": "2 × 30 min open Q&A sessions with me — join if you have questions",
     "platform": "Platform:",
     "platformValue": "Live video calls + Community group + Homework + Recording of live session for later reference",
     "language": "Language:",
-    "languageValue": "Live sessions in German (or English), Material in English",
+    "languageValue": "Live sessions in English, Material in English",
     "structureNote": "Note: The agenda above serves as a roadmap; specific topics and tools may vary slightly to ensure we are using the most current technology available at the time of the sprint.",
     "investmentTitle": "Investment",
-    "standardPrice": "Price:",
+    "earlyBirdPrice": "Early Bird (before 8. May 2026):",
+    "standardPrice": "Standard Price:",
     "scholarship": "Partial Scholarship: I reserve a small number of partial scholarships for people who are motivated but currently financially constrained.",
     "scholarshipLink": "Apply for scholarship here",
-    "cohortFullNote": "The current cohort is full. Join the waitlist and get weekly AI tips plus early access to the next cohort.",
-    "emailSignupTitle": "Join the waitlist + newsletter",
+    "cohortFullNote": "Join the next cohort and get weekly AI tips plus early access.",
+    "emailSignupTitle": "Join the cohort + newsletter",
     "emailSignupDescription": "Get priority access for the next cohort and receive practical AI tips you can use right away.",
-    "emailSignupButton": "Join the waitlist",
-    "emailSignupSuccessTitle": "You're on the waitlist and subscribed.",
+    "emailSignupButton": "Join the cohort",
+    "emailSignupSuccessTitle": "You're signed up for the cohort!",
     "emailSignupSuccessDescription": "Check your email for next steps. We'll be in touch soon."
   },
   "emailSignup": {

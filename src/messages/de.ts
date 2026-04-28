@@ -124,7 +124,7 @@ const de = {
   "aiSprint": {
     "headline": "KI KICKSTART SPRINT: Von KI-neugierig zu KI-produktiv",
     "subheadline": "ein 6-wöchiges Programm, um echte KI-Gewohnheiten für Beruf und Alltag aufzubauen",
-    "cta": "Zur Warteliste + KI-Updates",
+    "cta": "Zur Kohorte anmelden + KI-Updates",
     "missionTitle": "Die Mission",
     "mission": "Du willst nicht noch ein Jahr warten, um „mit KI zu starten“. Du willst KI jetzt nutzen – schneller arbeiten, klarer denken, echte Dinge bauen statt nur zu konsumieren. In diesem 6-Wochen-Sprint integrierst du KI in deinen Arbeitsalltag, verstehst, wie sie wirklich funktioniert, und nutzt die stärksten Tools mit Selbstvertrauen. Du prototypest Ideen schnell und baust deine eigene Website mit kostenlosen Tools – ohne Programmierkenntnisse. Fokus: Umsetzung statt Perfektion, Fortschritt statt Überforderung – du gehst nicht nur inspiriert, sondern handlungsfähig raus.",
     "roadmapTitle": "Der 6-Wochen-Plan",
@@ -132,38 +132,38 @@ const de = {
       {
         "phase": "Woche 1",
         "title": "Kick-off & KI-Grundlagen",
-        "days": "13. Februar 2026",
+        "days": "22. Mai 2026",
         "focus": "Setup, Spielregeln, das Learning-Habit-System und verstehen, wie GenAI/LLMs wirklich funktionieren."
       },
       {
         "phase": "Woche 2",
         "title": "Das Schweizer Taschenmesser",
-        "days": "20. Februar 2026",
+        "days": "29. Mai 2026",
         "focus": "KI-Toolset: Text-, Video-, Bild- und Audio-KI im Überblick."
       },
       {
         "phase": "Woche 3",
         "title": "KI im Beruf",
-        "days": "27. Februar 2026",
+        "days": "5. Juni 2026",
         "focus": "KI für wirkungsvolle Arbeit, Präsentationen, Routineaufgaben und Kommunikation."
       },
       {
         "phase": "Woche 4",
-        "title": "KI im Alltag",
-        "days": "6. März 2026",
-        "focus": "KI als persönlicher Assistent und kreatives Tool im Alltag nutzen."
+        "title": "Automation mit KI",
+        "days": "12. Juni 2026",
+        "focus": "Wiederkehrende Arbeitsabläufe mit KI-Agents und -Tools automatisieren. Systeme verbinden und KI Routineprozesse übernehmen lassen, damit du dich auf das Wesentliche konzentrieren kannst."
       },
       {
         "phase": "Woche 5",
-        "title": "Vibe Coding & eigene Website",
-        "days": "13. März 2026",
+        "title": "Vibe Coding",
+        "days": "19. Juni 2026",
         "focus": "Eigene Website oder KI-Agent bauen. „Vibe Coding“ erleben – funktionierende Software ohne Programmierkenntnisse."
       },
       {
         "phase": "Woche 6",
-        "title": "Abschlussprojekt",
-        "days": "20. März 2026",
-        "focus": "„Build your own project.“ Du verlässt den Sprint mit einer fertigen, nutzbaren KI-Lösung für dein Thema."
+        "title": "Eigene Website bauen",
+        "days": "26. Juni 2026",
+        "focus": "Mit Vibe Coding die eigene Website erstellen und auf einem kostenlosen Service veröffentlichen."
       }
     ],
     "goalGroupTitle": "Für wen ist der Sprint?",
@@ -200,23 +200,26 @@ const de = {
     "time": "Uhrzeit:",
     "timeValue": "12:00 – 12:45 Berliner Zeit (45 Min. pro Session)",
     "cohortDates": "Kohorten-Termine:",
-    "cohortDatesValue": "13. Februar – 20. März 2026",
+    "cohortDatesValue": "22. Mai – 26. Juni 2026",
     "format": "Format:",
-    "formatValue": "6 Wochen Live-Sessions",
+    "formatValue": "6 Wochen Live-Sessions + 2 × 30 Min. Sprechstunden",
+    "officeHours": "Sprechstunden:",
+    "officeHoursValue": "2 × 30 Min. offene Fragestunden mit mir — einfach dazukommen, wenn du Fragen hast",
     "platform": "Plattform:",
     "platformValue": "Live-Videocalls + Community-Gruppe + Hausaufgaben + Aufzeichnung der Sessions",
     "language": "Sprache:",
-    "languageValue": "Live-Sessions auf Deutsch (oder Englisch), Material auf Englisch",
+    "languageValue": "Live-Sessions auf Englisch, Material auf Englisch",
     "structureNote": "Hinweis: Die Agenda dient als Fahrplan; konkrete Themen und Tools können leicht variieren, damit wir die aktuell beste Technik nutzen.",
     "investmentTitle": "Investition",
-    "standardPrice": "Preis:",
+    "earlyBirdPrice": "Frühbucher (vor dem 8. Mai 2026):",
+    "standardPrice": "Regulärer Preis:",
     "scholarship": "Teilstipendien: Ich vergebe eine begrenzte Anzahl an Teilstipendien für motivierte Teilnehmer:innen mit aktuell begrenzten Mitteln.",
     "scholarshipLink": "Hier um ein Stipendium bewerben",
-    "cohortFullNote": "Die aktuelle Kohorte ist voll. Trag dich auf die Warteliste ein und erhalte wöchentliche KI-Tipps sowie frühzeitigen Zugang zur nächsten Kohorte.",
-    "emailSignupTitle": "Warteliste + Newsletter",
+    "cohortFullNote": "Melde dich für die nächste Kohorte an und erhalte wöchentliche KI-Tipps sowie frühzeitigen Zugang.",
+    "emailSignupTitle": "Zur Kohorte anmelden + Newsletter",
     "emailSignupDescription": "Sichere dir Priorität für die nächste Kohorte und erhalte praxisnahe KI-Tipps, die du sofort nutzen kannst.",
-    "emailSignupButton": "Zur Warteliste",
-    "emailSignupSuccessTitle": "Du bist auf der Warteliste und abonniert.",
+    "emailSignupButton": "Zur Kohorte anmelden",
+    "emailSignupSuccessTitle": "Du bist für die Kohorte angemeldet!",
     "emailSignupSuccessDescription": "Schau in dein Postfach für die nächsten Schritte. Ich melde mich bald bei dir."
   },
   "emailSignup": {

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { CalendarIcon, ClockIcon, VideoCameraIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+import { CalendarIcon, ClockIcon, VideoCameraIcon, UserGroupIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline';
 import Navigation from '@/components/Navigation';
 import EmailSignup from '@/components/EmailSignup';
 import { getMessage, getTranslation, type Locale } from '@/lib/i18n';
@@ -169,6 +169,13 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
                   </div>
                 </div>
                 <div className="flex items-start">
+                  <ChatBubbleLeftRightIcon className="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-purple-400" />
+                  <div>
+                    <p className="font-semibold text-white mb-1">{t('aiSprint.officeHours')}</p>
+                    <p>{t('aiSprint.officeHoursValue')}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
                   <UserGroupIcon className="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-purple-400" />
                   <div>
                     <p className="font-semibold text-white mb-1">{t('aiSprint.platform')}</p>
@@ -193,10 +200,19 @@ export default function AISprintContent({ locale }: { locale: Locale }) {
               <div className="space-y-4">
                 <a
                   href="#join-sprint"
-                  className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all cursor-pointer group"
+                  className="flex items-center justify-between p-4 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg hover:from-green-700 hover:to-emerald-700 transition-all cursor-pointer group border border-green-400/30"
                 >
-                  <span className="text-white text-lg font-semibold">{t('aiSprint.standardPrice')}</span>
-                  <span className="text-white text-3xl font-bold group-hover:scale-110 transition-transform">399€</span>
+                  <div>
+                    <span className="text-white text-lg font-semibold">{t('aiSprint.earlyBirdPrice')}</span>
+                  </div>
+                  <span className="text-white text-3xl font-bold group-hover:scale-110 transition-transform">319€</span>
+                </a>
+                <a
+                  href="#join-sprint"
+                  className="flex items-center justify-between p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all cursor-pointer group"
+                >
+                  <span className="text-gray-300 text-lg font-semibold">{t('aiSprint.standardPrice')}</span>
+                  <span className="text-gray-300 text-3xl font-bold group-hover:scale-110 transition-transform">399€</span>
                 </a>
                 <p className="text-gray-400 text-sm mt-2">
                   {t('aiSprint.scholarship')}{' '}
