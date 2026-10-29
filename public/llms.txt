@@ -1,0 +1,34 @@
+# DataThinker — Xia He-Bleinagel
+
+> Personal site of Xia He-Bleinagel, Head of Data and Cloud. Mentorship, AI literacy programs, and writing on data leadership, career transitions, and women in tech.
+
+Site: https://www.datathinker.de
+Preferred language for blog content: English (also mirrored under German URL paths)
+Default UI locale: German (`/`), English under `/en/`
+
+## Primary pages
+
+- [Home (DE)](https://www.datathinker.de/): German homepage — background, timeline, mentoring CTA
+- [Home (EN)](https://www.datathinker.de/en): English homepage
+- [AI Kickstart Sprint (DE)](https://www.datathinker.de/ai-kickstart-sprint): 6-week AI productivity program
+- [AI Kickstart Sprint (EN)](https://www.datathinker.de/en/ai-kickstart-sprint): English program page
+- [Mentoring (DE)](https://www.datathinker.de/mentoring): Career and women-in-tech mentorship
+- [Mentoring (EN)](https://www.datathinker.de/en/mentoring)
+- [Blog (EN)](https://www.datathinker.de/en/blog): Leadership and data journey posts (canonical)
+- [Blog (DE path)](https://www.datathinker.de/blog): Same posts; prefer EN URLs for citation
+- [Book a call](https://www.datathinker.de/en/book-call): Free discovery call
+- [Contact](https://www.datathinker.de/en/contact)
+- [RSS feed](https://www.datathinker.de/feed.xml)
+- [Sitemap](https://www.datathinker.de/sitemap.xml)
+
+## About the author
+
+Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.
+
+Contact: info@datathinker.de
+LinkedIn: https://www.linkedin.com/in/xia-he-bleinagel-51773585/
+GitHub: https://github.com/Data-Think-2021
+
+## Optional
+
+- Legal: [Privacy](https://www.datathinker.de/privacy), [Imprint](https://www.datathinker.de/imprint)

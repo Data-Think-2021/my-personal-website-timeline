@@ -1,4 +1,15 @@
-import React from 'react';
+import type { Metadata } from "next";
+import React from "react";
+import { buildPageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = buildPageMetadata({
+  locale: "de",
+  path: "/privacy",
+  title: "Datenschutzerklärung",
+  description:
+    "Datenschutzerklärung der Website von Xia He-Bleinagel (datathinker.de).",
+  noAlternates: true,
+});
 
 export default function PrivacyPage() {
     return (

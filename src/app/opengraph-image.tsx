@@ -4,7 +4,7 @@ export const runtime = "edge";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://datathinker.de";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.datathinker.de";
 
 export default async function Image() {
   const profileUrl = new URL("/profile.png", siteUrl);

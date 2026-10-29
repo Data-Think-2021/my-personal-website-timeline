@@ -1,34 +1,22 @@
 import type { Metadata } from "next";
 import AISprintContent from "@/components/AISprintContent";
+import JsonLd from "@/components/JsonLd";
+import { getTranslation } from "@/lib/i18n";
+import { aiSprintCourseJsonLd, buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
-  description:
-    "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
-  openGraph: {
-    title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
-    description:
-      "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
-    url: "/ai-kickstart-sprint",
-    images: [
-      {
-        url: "/ai-kickstart-sprint/opengraph-image",
-        width: 1200,
-        height: 630,
-        alt: "AI Kickstart Sprint",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AI KICKSTART SPRINT: From AI-curious to AI-productive",
-    description:
-      "Intensive sprint to build practical AI skills, ship outcomes, and grow confidence with guidance and templates.",
-    images: ["/ai-kickstart-sprint/opengraph-image"],
-  },
-};
+export const metadata: Metadata = buildPageMetadata({
+  locale: "de",
+  path: "/ai-kickstart-sprint",
+  title: getTranslation("de", "aiSprint.headline"),
+  description: getTranslation("de", "aiSprint.subheadline"),
+  ogImage: "/ai-kickstart-sprint/opengraph-image",
+});
 
 export default function AIKickstartSprintPage() {
-  return <AISprintContent locale="de" />;
+  return (
+    <>
+      <JsonLd data={aiSprintCourseJsonLd("de")} />
+      <AISprintContent locale="de" />
+    </>
+  );
 }

@@ -55,3 +55,18 @@ export function getPostBySlug(slug: string): BlogPost | null {
   }
 }
 
+/** Drop a leading markdown H1 that duplicates the page title (avoids double H1 in HTML). */
+export function stripLeadingTitleHeading(content: string, title: string): string {
+  const lines = content.trimStart().split('\n');
+  if (lines.length === 0) return content;
+
+  const match = lines[0].match(/^#\s+(.+)$/);
+  if (!match) return content;
+
+  const heading = match[1].trim();
+  if (heading === title.trim() || heading.replace(/\\/g, '') === title.trim()) {
+    return lines.slice(1).join('\n').trimStart();
+  }
+  return content;
+}
+

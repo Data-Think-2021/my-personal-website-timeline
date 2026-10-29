@@ -19,6 +19,7 @@ const de = {
   "home": {
     "headline": "Erfolg in Data, Cloud & KI durch Lernen und Mentoring",
     "subheadline": "Von der Vollzeit-Mama zum Head of Data — jetzt betreue ich andere dabei, Selbstvertrauen, Fähigkeiten und Orientierung aufzubauen, um im Zeitalter der KI erfolgreich zu sein.",
+    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud bei der NOW GmbH, Daten- & KI-Strategie, Cloud-Governance. Speakerin & Mentorin für Tech und Führung.",
     "cta": "Kostenloses Erstgespräch buchen",
     "timelineTitle": "Beruflicher Werdegang"
   },

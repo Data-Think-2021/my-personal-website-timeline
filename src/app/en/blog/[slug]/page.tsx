@@ -1,9 +1,21 @@
-import Navigation from '@/components/Navigation';
-import { getAllPosts, getPostBySlug } from '@/lib/blog';
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import { remark } from 'remark';
-import html from 'remark-html';
+import type { Metadata } from "next";
+import Navigation from "@/components/Navigation";
+import JsonLd from "@/components/JsonLd";
+import {
+  getAllPosts,
+  getPostBySlug,
+  stripLeadingTitleHeading,
+} from "@/lib/blog";
+import {
+  blogPostingJsonLd,
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  localePath,
+} from "@/lib/seo";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import { remark } from "remark";
+import html from "remark-html";
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -18,6 +30,23 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+  if (!post) return {};
+
+  return buildPageMetadata({
+    locale: "en",
+    path: `/blog/${post.slug}`,
+    title: post.title,
+    description: post.excerpt || post.title,
+    ogType: "article",
+    preferredLocale: "en",
+  });
+}
+
 export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -26,17 +55,33 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
-  // Convert markdown to HTML
-  const processedContent = await remark().use(html).process(post.content);
+  const contentForHtml = stripLeadingTitleHeading(post.content, post.title);
+  const processedContent = await remark().use(html).process(contentForHtml);
   const contentHtml = processedContent.toString();
+  const enPath = localePath("en", `/blog/${post.slug}`);
 
   return (
     <>
+      <JsonLd
+        data={[
+          blogPostingJsonLd({
+            title: post.title,
+            description: post.excerpt || post.title,
+            path: enPath,
+            datePublished: post.date,
+            tags: post.tags,
+          }),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/en" },
+            { name: "Blog", path: "/en/blog" },
+            { name: post.title, path: enPath },
+          ]),
+        ]}
+      />
       <Navigation />
-      
+
       <div className="min-h-screen bg-gray-900 pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Back to blog link */}
           <Link
             href="/en/blog"
             className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors mb-8"
@@ -44,21 +89,20 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
             ← Back to Blog
           </Link>
 
-          {/* Article header */}
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               {post.title}
             </h1>
-            
+
             <div className="flex flex-wrap items-center gap-4 text-gray-400 mb-6">
-              <time>
-                {new Date(post.date).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
+              <time dateTime={post.date}>
+                {new Date(post.date).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
                 })}
               </time>
-              
+
               {post.tags && post.tags.length > 0 && (
                 <>
                   <span>•</span>
@@ -77,7 +121,6 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
             </div>
           </header>
 
-          {/* Article content */}
           <article
             className="prose prose-lg prose-invert max-w-none
               prose-headings:text-white

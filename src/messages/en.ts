@@ -19,6 +19,7 @@ const en = {
   "home": {
     "headline": "Helping people thrive in Data, Cloud & AI through learning and mentorship",
     "subheadline": "From stay-at-home mom to Head of Data — now mentoring others to build confidence, skills, and direction to succeed in the age of AI.",
+    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
     "cta": "Book Your Free Discovery Call",
     "timelineTitle": "Professional Journey"
   },
