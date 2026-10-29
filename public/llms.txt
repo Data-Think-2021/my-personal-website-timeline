@@ -1,6 +1,6 @@
 # DataThinker — Xia He-Bleinagel
 
-> Personal site of Xia He-Bleinagel, Head of Data and Cloud. Mentorship, AI literacy programs, and writing on data leadership, cloud strategy, and career growth in tech.
+> Personal site of Xia He-Bleinagel, Head of Data and Cloud. Speaking, training, mentoring, and writing on data leadership, cloud strategy, and career growth in tech.
 
 Site: https://www.datathinker.de
 Preferred language for blog content: English (also mirrored under German URL paths)
@@ -8,11 +8,15 @@ Default UI locale: German (`/`), English under `/en/`
 
 ## Primary pages
 
-- [Home (DE)](https://www.datathinker.de/): German homepage — background, timeline, mentoring CTA
+- [Home (DE)](https://www.datathinker.de/): German homepage — about, offerings, FAQ
 - [Home (EN)](https://www.datathinker.de/en): English homepage
+- [Speaking (DE)](https://www.datathinker.de/speaking): Keynotes, panels, workshops
+- [Speaking (EN)](https://www.datathinker.de/en/speaking)
+- [Training (DE)](https://www.datathinker.de/training): Training overview and programs
+- [Training (EN)](https://www.datathinker.de/en/training)
 - [AI Kickstart Sprint (DE)](https://www.datathinker.de/ai-kickstart-sprint): 6-week AI productivity program
 - [AI Kickstart Sprint (EN)](https://www.datathinker.de/en/ai-kickstart-sprint): English program page
-- [Mentoring (DE)](https://www.datathinker.de/mentoring): Career and tech leadership mentorship
+- [Mentoring (DE)](https://www.datathinker.de/mentoring): Career and leadership mentoring
 - [Mentoring (EN)](https://www.datathinker.de/en/mentoring)
 - [Blog (EN)](https://www.datathinker.de/en/blog): Leadership and data journey posts (canonical)
 - [Blog (DE path)](https://www.datathinker.de/blog): Same posts; prefer EN URLs for citation

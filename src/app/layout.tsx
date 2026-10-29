@@ -15,13 +15,13 @@ const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Data, Cloud & AI. With purpose and impact",
+    default: "Data, Cloud & AI — with purpose and impact",
     template: `%s | ${AUTHOR_NAME}`,
   },
   description:
     "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
   openGraph: {
-    title: "Data, Cloud & AI. With purpose and impact",
+    title: "Data, Cloud & AI — with purpose and impact",
     description:
       "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     url: "/",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Data, Cloud & AI. With purpose and impact",
+    title: "Data, Cloud & AI — with purpose and impact",
     description:
       "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     images: ["/opengraph-image"],

@@ -4,6 +4,8 @@ import { absoluteUrl, localePath } from "@/lib/seo";
 
 const STATIC_PATHS = [
   "/",
+  "/speaking",
+  "/training",
   "/blog",
   "/mentoring",
   "/ai-kickstart-sprint",

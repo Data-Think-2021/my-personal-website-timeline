@@ -13,10 +13,10 @@ const Navigation = () => {
 
   const links = [
     { href: prefix || '/', label: t('nav.home') },
-    { href: `${prefix}/ai-kickstart-sprint`, label: t('nav.aiSprint') },
-    { href: `${prefix}/blog`, label: t('nav.blog') },
+    { href: `${prefix}/speaking`, label: t('nav.speaking') },
+    { href: `${prefix}/training`, label: t('nav.training') },
     { href: `${prefix}/mentoring`, label: t('nav.mentoring') },
-    { href: `${prefix}/book-call`, label: t('nav.bookCall') },
+    { href: `${prefix}/blog`, label: t('nav.blog') },
     { href: `${prefix}/contact`, label: t('nav.contact') },
   ];
 

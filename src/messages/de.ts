@@ -1,12 +1,13 @@
 const de = {
   "nav": {
     "home": "Start",
-    "aiSprint": "KI Kickstart Sprint",
-
-    "blog": "Blog",
+    "speaking": "Speaking",
+    "training": "Training",
     "mentoring": "Mentoring",
-    "bookCall": "Termin buchen",
-    "contact": "Kontakt"
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "aiSprint": "KI Kickstart Sprint",
+    "bookCall": "Termin buchen"
   },
   "footer": {
     "tagline": "Leadership in Data, Cloud & KI. Mentoring und Community für Menschen, die die Zukunft der Tech-Branche mitgestalten.",
@@ -17,11 +18,180 @@ const de = {
     "copyright": "Alle Rechte vorbehalten."
   },
   "home": {
-    "headline": "Data, Cloud & KI. Mit Haltung und Wirkung",
+    "headline": "Data, Cloud & KI — mit Haltung und Wirkung",
     "subheadline": "Als Head of Data & Cloud bei der NOW GmbH verbinde ich technologische Expertise mit empathischer Führung und klarer Ergebnisorientierung. Als Führungskraft und Mentorin begleite ich Teams und Menschen dabei, Potenziale zu entfalten und Ideen in konkrete Ergebnisse umzusetzen.",
     "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud bei der NOW GmbH, Berlin. Daten- & KI-Strategie, Cloud-Governance. Speakerin & Mentorin für Tech, Führung und Karrierewachstum.",
-    "cta": "Kostenloses Erstgespräch buchen",
-    "timelineTitle": "Beruflicher Werdegang"
+    "cta": "Gespräch vereinbaren",
+    "ctaSecondary": "Über mich",
+    "aboutTitle": "Über mich",
+    "aboutParagraphs": [
+      "Ich bin Xia, Head of Data & Cloud bei der NOW GmbH in Berlin. Mein Team arbeitet als Data & Cloud Center of Excellence der Organisation und verantwortet Cloud-Infrastruktur sowie Data- und KI-Enablement.",
+      "Mein Weg hierher war kein gerader. Mein Hintergrund liegt in NLP-Forschung und Data Science — und ich habe auch Jahre zu Hause mit meinen Kindern verbracht. Der Neustart danach hat mir gezeigt, was ich heute weitergebe: klare Ziele, stetiges Lernen und den Mut, sich einen Platz am Tisch zu holen.",
+      "Heute teile ich diese Erfahrung als Speakerin, Trainerin und Mentorin über datathinker: praktische KI und Leadership für Menschen, die wachsen oder beruflich neu starten."
+    ],
+    "aboutStoryLabel": "▶ Meine Geschichte ansehen",
+    "offeringsTitle": "So arbeiten wir zusammen",
+    "offeringSpeakingTitle": "Speaking",
+    "offeringSpeakingText": "Keynotes, Panels und Workshops zu Data, Cloud, KI und Leadership — praxisnah, klar, ohne Buzzword-Nebel.",
+    "offeringSpeakingCta": "Speaking anfragen →",
+    "offeringTrainingTitle": "Training",
+    "offeringTrainingText": "Strukturierte Programme wie der AI Kickstart Sprint: von KI-neugierig zu KI-produktiv — mit Gewohnheiten, die im Alltag halten.",
+    "offeringTrainingCta": "Training entdecken →",
+    "offeringMentoringTitle": "Mentoring",
+    "offeringMentoringText": "1:1-Mentoring für Karrierewachstum, Leadership und den Einstieg oder Aufstieg in Data, Cloud und KI.",
+    "offeringMentoringCta": "Mentoring ansehen →",
+    "insightsTitle": "Einblicke",
+    "insightsIntro": "Gedanken zu Leadership, Data und KI — aus dem Alltag, nicht vom Whiteboard.",
+    "insightsCta": "Alle Beiträge →",
+    "faqTitle": "Zusammenarbeit mit Xia – FAQ",
+    "faqSections": [
+      {
+        "title": "Allgemein",
+        "items": [
+          {
+            "q": "Mit wem arbeitest du?",
+            "a": "Mit Fachkräften, Teams und Organisationen, die Data und KI praktisch nutzen wollen: von Menschen, die mit KI-Tools starten, bis zu Führungskräften, die Data- & KI-Strategien aufbauen. Viele wachsen in Leadership-Rollen oder starten beruflich neu durch."
+          },
+          {
+            "q": "Was macht deinen Ansatz anders?",
+            "a": "Ich führe selbst ein Data- & Cloud-Team als Head of Data & Cloud bei der NOW GmbH. Alles, was ich vermittle, kommt aus realen Projekten — nicht von Folien. Mein Hintergrund spannt NLP-Forschung, Data Analytics & Cloud Engineering und Leadership — ich spreche mit Engineers und Executives gleichermaßen."
+          },
+          {
+            "q": "Arbeitest du auf Deutsch oder Englisch?",
+            "a": "Beides. Training, Mentoring und Vorträge gibt es auf Deutsch und Englisch."
+          },
+          {
+            "q": "Arbeitest du online oder vor Ort?",
+            "a": "Online; vor Ort in Berlin und auf Anfrage auch anderswo."
+          }
+        ]
+      },
+      {
+        "title": "Training (AI Kickstart Sprint)",
+        "items": [
+          {
+            "q": "Was ist der AI Kickstart Sprint?",
+            "a": "Ein praxisnahes Programm, um Tools wie Claude, Gemini, OpenAI Codex und n8n zu nutzen und erste KI-Agents für die eigene Arbeit zu bauen. Die Formate variieren: der erste Sprint lief als 6 Wochen × 45 Minuten; andere Formate sind möglich, z. B. ein Intensiv mit 3 Sessions × 3 Stunden."
+          },
+          {
+            "q": "Brauche ich technische oder Programmierkenntnisse?",
+            "a": "Nein. Der Sprint ist für Fachkräfte und Business Builder gemacht. Wer E-Mail und Tabellen nutzen kann, kommt mit."
+          },
+          {
+            "q": "Bekomme ich ein Zertifikat?",
+            "a": "Ja. Jede:r Teilnehmer:in erhält eine Teilnahmebescheinigung mit Inhalt und Stundenumfang."
+          }
+        ]
+      },
+      {
+        "title": "Mentoring",
+        "items": [
+          {
+            "q": "Was passiert in einer Mentoring-Session?",
+            "a": "Wir arbeiten an deiner realen Situation: Karriereschritt, erste Führungsrolle, schwieriges Gespräch, Strategie, die du nach oben verkaufen musst. Du gehst mit konkreten nächsten Schritten raus."
+          },
+          {
+            "q": "Wie lange dauert ein Mentoring?",
+            "a": "Einzelsessions oder Pakete mit 4 Sessions über 3 Monate."
+          },
+          {
+            "q": "Ist Mentoring vertraulich?",
+            "a": "Ja. Was wir besprechen, bleibt zwischen uns."
+          }
+        ]
+      },
+      {
+        "title": "Speaking",
+        "items": [
+          {
+            "q": "Zu welchen Themen sprichst du?",
+            "a": "Data- & KI-Leadership, der Weg vom Individual Contributor zur Führungskraft, Teams aus Menschen und KI-Agents führen sowie berufliche Neuausrichtung. Ich habe u. a. bei PyCon DE & PyData und DataTalks.Club gesprochen."
+          },
+          {
+            "q": "Welche Formate bietest du an?",
+            "a": "Keynotes, Konferenzvorträge, Workshops, Panels und interne Unternehmensformate — vor Ort oder online."
+          },
+          {
+            "q": "Was brauchst du von Veranstalter:innen?",
+            "a": "Datum, Publikum, Format und Länge. Bio, Foto und Abstract schicke ich sofort."
+          }
+        ]
+      },
+      {
+        "title": "Buchung & Zahlung",
+        "items": [
+          {
+            "q": "Kann ich das Weiterbildungsbudget meines Arbeitgebers nutzen?",
+            "a": "Ja. Die meisten Teilnehmer:innen zahlen über das Weiterbildungs- oder Entwicklungsbudget ihres Arbeitgebers. Ich stelle eine ordnungsgemäße Rechnung auf das Unternehmen aus — mit Beschreibung von Inhalt und Stunden — und kann vorab ein Angebot für die interne Freigabe liefern."
+          },
+          {
+            "q": "Wie buche ich?",
+            "a": "Buche ein kostenloses Erstgespräch über den Kalenderlink oder schreibe über das Kontaktformular."
+          }
+        ]
+      }
+    ],
+    "closingTitle": "Bereit für den nächsten Schritt?",
+    "closingText": "Ob Keynote, Training oder persönliches Mentoring — lass uns kurz sprechen und das passende Format finden.",
+    "closingCta": "Gespräch vereinbaren"
+  },
+  "speaking": {
+    "title": "Speaking",
+    "metaDescription": "Keynotes, Panels und Workshops zu Data, Cloud, KI und Leadership mit Xia He-Bleinagel.",
+    "intro": "Über die Jahre war ich in Meetups und Communities aktiv. Bei NOW baue ich gerne die interne Data Community auf, halte Pitches und moderiere Sessions. In diesem Jahr spreche ich auch öffentlicher und bin zu Gast in Podcasts — und teile meine Erfahrung als Frau in einer Tech-Führungsrolle: praxisnahe Geschichten aus Data-, Cloud- und KI-Leadership.",
+    "topicsTitle": "Themen",
+    "topics": [
+      "Data- & KI-Strategie, die ankommt",
+      "Cloud-Plattformen und Governance für wachsende Teams",
+      "Technische Teams mit Klarheit und Empathie führen",
+      "Karrierewachstum und Neuausrichtung in Data, Cloud und KI"
+    ],
+    "formatsTitle": "Formate",
+    "formats": [
+      "Keynotes",
+      "Panel-Diskussionen",
+      "Workshops und interaktive Sessions",
+      "Interne Unternehmensvorträge",
+      "Podcasts"
+    ],
+    "talksTitle": "Ausgewählte Vorträge",
+    "talks": [
+      {
+        "title": "How We Built an Inclusive Data Organization: Careers, Community & 50% Women",
+        "event": "PyCon DE & PyData 2026",
+        "videoId": "ThYFPq6AtMU",
+        "watchLabel": "Auf YouTube ansehen →"
+      }
+    ],
+    "podcastsTitle": "Podcasts",
+    "podcasts": [
+      {
+        "title": "Reinventing a Career in Tech",
+        "event": "DataTalks.Club mit Alexey Grigorev (Englisch)",
+        "videoId": "D2rw52SOFfM",
+        "watchLabel": "Auf YouTube ansehen →"
+      },
+      {
+        "title": "Vom Ziele setzen & erreichen — Wie du mit klaren Zielen & harter Arbeit erfolgreich wirst",
+        "event": "Business selbst Vertrauen für Frauen mit Katharina Schöninger (Deutsch)",
+        "videoId": "3nFhwmyRLek",
+        "watchLabel": "Auf YouTube ansehen →"
+      }
+    ],
+    "ctaTitle": "Einladung zum Speaking",
+    "ctaDescription": "Erzähl mir von Event, Publikum und Format — wir finden das passende Setup.",
+    "cta": "Gespräch vereinbaren"
+  },
+  "training": {
+    "title": "Training",
+    "metaDescription": "Strukturierte KI- und Tech-Trainings mit Xia He-Bleinagel, inklusive AI Kickstart Sprint.",
+    "intro": "Strukturierte Programme, die Neugier in Kompetenz verwandeln — mit Gewohnheiten und Tools, die du sofort im Job nutzen kannst.",
+    "programTitle": "AI Kickstart Sprint",
+    "programDescription": "Ein praxisnahes Programm für echte KI-Gewohnheiten im Job — Tools, Agents und Übung, die du sofort nutzen kannst. Formate variieren (z. B. 6 Wochen × 45 Minuten oder ein Intensiv mit 3 × 3 Stunden).",
+    "programCta": "Zum AI Kickstart Sprint →",
+    "ctaTitle": "Individueller Workshop gesucht?",
+    "ctaDescription": "Ich gestalte auch maßgeschneiderte Sessions für Teams. Lass uns über deine Ziele sprechen.",
+    "cta": "Gespräch vereinbaren"
   },
   "timeline": {
     "entries": [
@@ -39,7 +209,7 @@ const de = {
     ]
   },
   "mentoring": {
-    "title": "Mentoring-Angebot",
+    "title": "Mentoring",
     "intro": "Als Head of Data & Cloud biete ich persönliches Mentoring aus der Führungspraxis — konkrete Orientierung für Karrieren in Data, Cloud und KI.",
     "rightForYouTitle": "Dieses Mentoring passt zu dir, wenn:",
     "rightForYou1": "du in die Tech-Branche einsteigst und Klarheit zu Rollen, Skills und nächsten Schritten brauchst",

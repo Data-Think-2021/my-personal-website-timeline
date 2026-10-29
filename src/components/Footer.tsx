@@ -23,8 +23,13 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={`${prefix}/blog`} className="text-gray-400 hover:text-white transition-colors text-sm">
-                  {t('nav.blog')}
+                <Link href={`${prefix}/speaking`} className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {t('nav.speaking')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`${prefix}/training`} className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {t('nav.training')}
                 </Link>
               </li>
               <li>
@@ -33,8 +38,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href={`${prefix}/ai-kickstart-sprint`} className="text-gray-400 hover:text-white transition-colors text-sm">
-                  {t('nav.aiSprint')}
+                <Link href={`${prefix}/blog`} className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {t('nav.blog')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`${prefix}/contact`} className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {t('nav.contact')}
                 </Link>
               </li>
             </ul>
