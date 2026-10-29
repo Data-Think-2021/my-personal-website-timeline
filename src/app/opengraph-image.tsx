@@ -26,9 +26,9 @@ export default async function Image() {
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 18, maxWidth: 620 }}>
           <div style={{ fontSize: 56, fontWeight: 700, lineHeight: 1.1 }}>
-            Empowering Women in Tech
+            Data, Cloud & AI Leadership
           </div>
-          <div style={{ fontSize: 32, color: "#cbd5f5" }}>Data, Cloud & AI</div>
+          <div style={{ fontSize: 32, color: "#cbd5f5" }}>Strategy · Teams · Mentorship</div>
           <div style={{ fontSize: 28, color: "#94a3b8" }}>datathinker.de</div>
         </div>
         <div

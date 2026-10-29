@@ -9,7 +9,7 @@ const de = {
     "contact": "Kontakt"
   },
   "footer": {
-    "tagline": "Frauen in Data, Cloud & KI stärken. Die Zukunft der Tech-Branche durch Mentoring und Community gestalten.",
+    "tagline": "Leadership in Data, Cloud & KI. Mentoring und Community für Menschen, die die Zukunft der Tech-Branche mitgestalten.",
     "quickLinks": "Links",
     "legal": "Rechtliches",
     "privacyPolicy": "Datenschutz",
@@ -17,16 +17,16 @@ const de = {
     "copyright": "Alle Rechte vorbehalten."
   },
   "home": {
-    "headline": "Erfolg in Data, Cloud & KI durch Lernen und Mentoring",
-    "subheadline": "Von der Vollzeit-Mama zum Head of Data — jetzt betreue ich andere dabei, Selbstvertrauen, Fähigkeiten und Orientierung aufzubauen, um im Zeitalter der KI erfolgreich zu sein.",
-    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud bei der NOW GmbH, Daten- & KI-Strategie, Cloud-Governance. Speakerin & Mentorin für Tech und Führung.",
+    "headline": "Data, Cloud & KI. Mit Haltung und Wirkung",
+    "subheadline": "Als Head of Data & Cloud bei der NOW GmbH verbinde ich technologische Expertise mit empathischer Führung und klarer Ergebnisorientierung. Als Führungskraft und Mentorin begleite ich Teams und Menschen dabei, Potenziale zu entfalten und Ideen in konkrete Ergebnisse umzusetzen.",
+    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud bei der NOW GmbH, Berlin. Daten- & KI-Strategie, Cloud-Governance. Speakerin & Mentorin für Tech, Führung und Karrierewachstum.",
     "cta": "Kostenloses Erstgespräch buchen",
     "timelineTitle": "Beruflicher Werdegang"
   },
   "timeline": {
     "entries": [
       { "date": "2025", "title": "Head of Data and Cloud", "location": "NOW GmbH", "description": "Leitung der Datenstrategie und des Teams, AWS-Infrastruktur sowie datengetriebene Initiativen im gesamten Unternehmen.", "icon": "work" },
-      { "date": "2024", "title": "Data Engineer", "location": "NOW GmbH", "description": "Entwicklung und Wartung von ETL-Pipelines in AWS. Administration der AWS-Infrastruktur. Erfolgreiche Initiativen: AWS Certification Sprint 1, interner Hackathon, Frauen-Mentoring-Programm.", "icon": "work" },
+      { "date": "2024", "title": "Data Engineer", "location": "NOW GmbH", "description": "Entwicklung und Wartung von ETL-Pipelines in AWS. Administration der AWS-Infrastruktur. Erfolgreiche Initiativen: AWS Certification Sprint 1, interner Hackathon, Mentoring-Programm.", "icon": "work" },
       { "date": "2023", "title": "Consultant AI & Data Analytics", "location": "Deloitte", "description": "Umfassende Auswertung von Banktransaktionsdaten, NLP- und ML-Lösungen für verschiedene Anwendungsfälle.", "icon": "work" },
       { "date": "2022", "title": "Digital Analyst", "location": "Digital Motion GmbH", "description": "Automatische Datenpipelines in AWS für Reporting und Dashboards, Google Analytics 4 Migration, Web-Tracking-Konzepte.", "icon": "work" },
       { "date": "2020", "title": "Wissenschaftliche Mitarbeiterin", "location": "Julius Kühn-Institut", "description": "Projekt „HortiSem“ für das semantische Web.", "icon": "work" },
@@ -40,16 +40,16 @@ const de = {
   },
   "mentoring": {
     "title": "Mentoring-Angebot",
-    "intro": "Als Data Leader biete ich dir persönliches Mentoring, um in deiner Tech-Karriere zu wachsen — mit Fokus auf praktische Begleitung, Erfahrung aus der Praxis und professionelle Entwicklung.",
+    "intro": "Als Head of Data & Cloud biete ich persönliches Mentoring aus der Führungspraxis — konkrete Orientierung für Karrieren in Data, Cloud und KI.",
     "rightForYouTitle": "Dieses Mentoring passt zu dir, wenn:",
-    "rightForYou1": "du in die Tech-Branche einsteigst und Orientierung suchst",
-    "rightForYou2": "du als Frau in einem männerdominierten Umfeld arbeitest und selbstbewusst durchstarten willst",
+    "rightForYou1": "du in die Tech-Branche einsteigst und Klarheit zu Rollen, Skills und nächsten Schritten brauchst",
+    "rightForYou2": "du in eine technische oder Führungsrolle wächst und mit Klarheit und Selbstvertrauen führen willst",
     "rightForYou3": "du nach einer Karrierepause zurück in den Job willst und deinen Wiedereinstieg meistern möchtest",
     "rightForYou4": "du als internationale Fachkraft in Deutschland arbeiten und Karriere machen willst",
-    "rightForYou5": "du als Frau und Mutter Karriere und Familie praktisch vereinbaren möchtest",
+    "rightForYou5": "du in Data-, Cloud- oder KI-Leadership einsteigen willst und praktische Begleitung für den Übergang suchst",
     "rightForYou6": "du bereit bist für den nächsten Schritt in deiner Laufbahn",
     "whyWorkWithMeTitle": "Warum mit mir arbeiten?",
-    "whyWorkWithMe1": "Erfolgreicher Weg von der Vollzeit-Mama mit internationalem Hintergrund zur Data-Leadership-Position",
+    "whyWorkWithMe1": "Weg von der beruflichen Neuausrichtung bis zur Rolle als Head of Data & Cloud — mit internationalem Hintergrund",
     "whyWorkWithMe2": "Breite Erfahrung in Forschungsinstituten sowie in kleinen, mittleren und großen Beratungsunternehmen in Data und KI",
     "whyWorkWithMe3": "Bewährte Fähigkeit, Karrierewechsel zu meistern und Rollen strategisch in einem dynamischen Arbeitsmarkt zu gestalten",
     "whyWorkWithMe4": "Praktische Erfahrung in verschiedenen Data-Rollen: Data Analyst, Data Engineer, Data Scientist und heute Data Leader",
@@ -59,14 +59,14 @@ const de = {
     "packageMaterials": "Kuratierte Materialien & Ressourcen",
     "packageCta": "Kostenloses Erstgespräch buchen",
     "packages": {
-      "womenEmpowerment": {
-        "title": "Frauen stärken",
-        "description": "Spezielles Mentoring für Frauen, die in der Tech-Branche ihren Weg gehen und durchstarten wollen.",
+      "techLeadership": {
+        "title": "Tech Leadership",
+        "description": "Mentoring für Fachkräfte, die in Data-, Cloud- und KI-Führung einsteigen oder dort wachsen wollen.",
         "features": [
-          "Herausforderungen und Vorurteile meistern",
-          "Selbstvertrauen in technischen und Führungsrollen",
-          "Networking und Community",
-          "Work-Life-Balance und Selbstbehauptung"
+          "Klar führen in technischen und organisatorischen Kontexten",
+          "Selbstvertrauen für Senior- und Führungsrollen aufbauen",
+          "Sichtbarkeit, Networking und Personal Brand",
+          "Übergang von der Fach- zur Führungsrolle gestalten"
         ]
       },
       "transitionToTechAndCareer": {
@@ -98,7 +98,7 @@ const de = {
     "testimonial3": "Als alleinerziehende Mutter nach 5 Jahren Pause hat Xia mir geholfen, wieder Selbstvertrauen zu fassen und einen klaren Weg in die finanzielle Unabhängigkeit zu finden. Ihre strukturierte Art und Ermutigung haben den Unterschied gemacht. Nach nur zwei Monaten hatte ich 2 konkrete Möglichkeiten!",
     "testimonial3Author": "— Katharina S., Freelancerin",
     "ctaTitle": "Bereit für den nächsten Schritt?",
-    "ctaDescription": "Lass uns besprechen, wie Mentoring dir hilft, Selbstvertrauen und Klarheit für deine Karriere zu gewinnen.",
+    "ctaDescription": "Lass uns besprechen, wie Mentoring dir hilft, Skills, Richtung und Momentum in Data, Cloud und KI aufzubauen.",
     "ctaButton": "Kostenloses Erstgespräch buchen"
   },
   "bookCall": {
@@ -176,8 +176,8 @@ const de = {
     "goal5": "du ein strukturiertes Programm statt verstreuter Tutorials willst",
     "whyLearnTitle": "Warum bei mir lernen?",
     "whyLearn1": "Ich erkläre nicht nur KI – ich helfe dir, im KI-Zeitalter erfolgreich zu sein. Ob Prototyping, Strategie oder Coding: Ich zeige dir, wie du KI mit Klarheit und Selbstvertrauen nutzt. Ich begleite dich beim Aufbau einer „Learning Loop“ – komplexe Technik in kleine, wiederholbare Schritte zu zerlegen – damit du die wichtigste Fähigkeit der KI-Ära trainierst: das Lernen.",
-    "whyLearn2": "Vom Vollzeit-Mama zur Data Leader: Meinen Weg hat eine Sache geprägt – die Kraft von Gewohnheit und Neugier. Dazu kommt eine solide technische Basis, die alles fundiert, was ich heute vermittle. Ich verbinde tiefe Tech-Expertise mit realer Berufserfahrung. Mein Hintergrund: Data Science, praktische Erfahrung in Machine Learning und Deep Learning. Ich habe in der Forschung mit Natural Language Processing gearbeitet – lange bevor KI zum Buzzword wurde – und diese Technologien seitdem in Produktion, Führung und datengetriebener Strategie eingesetzt.",
-    "whyLearnLink": "Interview ansehen: Von der Vollzeit-Mama zum Head of Data",
+    "whyLearn2": "Meinen Weg in die Data-Leadership hat eine Sache geprägt – die Kraft von Gewohnheit und Neugier. Dazu kommt eine solide technische Basis, die alles fundiert, was ich heute vermittle. Ich verbinde tiefe Tech-Expertise mit realer Berufserfahrung. Mein Hintergrund: Data Science, praktische Erfahrung in Machine Learning und Deep Learning. Ich habe in der Forschung mit Natural Language Processing gearbeitet – lange bevor KI zum Buzzword wurde – und diese Technologien seitdem in Produktion, Führung und datengetriebener Strategie eingesetzt.",
+    "whyLearnLink": "Interview ansehen: Weg zum Head of Data",
     "testimonialsTitle": "Was Teilnehmer:innen sagen",
     "sprintTestimonial1": "Der AI Kickstart Sprint ist ideal für alle, die ihre Reise zu echter KI-Kompetenz starten möchten. Vom Verständnis, wie KI funktioniert, über die Unterscheidung verschiedener KI-Tools bis hin zum Vibe Coding deiner eigenen Website – dieser KI KICKSTART bereitet dich darauf vor, die unendlichen Möglichkeiten von KI in deinem Alltag zu nutzen – privat und beruflich. Xia ist eine sehr kompetente und empathische Lehrerin, die immer darum bemüht ist, den größtmöglichen Mehrwert zu bieten.",
     "sprintTestimonial1Author": "Katharina Schoeninger",

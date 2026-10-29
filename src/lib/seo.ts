@@ -105,7 +105,7 @@ export function personJsonLd() {
     email: "info@datathinker.de",
     jobTitle: "Head of Data and Cloud",
     description:
-      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
+      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     image: absoluteUrl("/profile.png"),
     sameAs: [
       "https://www.linkedin.com/in/xia-he-bleinagel-51773585/",
@@ -119,8 +119,8 @@ export function personJsonLd() {
       "Data Engineering",
       "Cloud Computing",
       "Artificial Intelligence",
+      "Data Leadership",
       "Mentorship",
-      "Women in Tech",
     ],
   };
 }
@@ -206,8 +206,8 @@ export function mentoringServiceJsonLd(locale: Locale) {
         : "Mentoring in Data, Cloud & AI",
     description:
       locale === "de"
-        ? "Persönliches Mentoring für Quereinstieg in Tech, Karrierewachstum und Frauen in Data & KI."
-        : "Personal mentorship for tech career transitions, growth, and women in data & AI.",
+        ? "Persönliches Mentoring für Quereinstieg in Tech, Karrierewachstum und Leadership in Data, Cloud & KI."
+        : "Personal mentorship for tech career transitions, growth, and leadership in data, cloud & AI.",
     provider: {
       "@type": "Person",
       name: AUTHOR_NAME,

@@ -9,7 +9,7 @@ const en = {
     "contact": "Contact"
   },
   "footer": {
-    "tagline": "Empowering women in Data, Cloud & AI. Building the future of tech through mentorship and community.",
+    "tagline": "Data, Cloud & AI leadership. Mentorship and community for people building the future of tech.",
     "quickLinks": "Quick Links",
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
@@ -17,16 +17,16 @@ const en = {
     "copyright": "All rights reserved."
   },
   "home": {
-    "headline": "Helping people thrive in Data, Cloud & AI through learning and mentorship",
-    "subheadline": "From stay-at-home mom to Head of Data — now mentoring others to build confidence, skills, and direction to succeed in the age of AI.",
-    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
+    "headline": "Data, Cloud & AI. With purpose and impact",
+    "subheadline": "As Head of Data & Cloud at NOW GmbH, I combine technical expertise with empathetic leadership and a clear focus on results. As a leader and mentor, I help teams and people unlock their potential and turn ideas into concrete outcomes.",
+    "metaDescription": "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     "cta": "Book Your Free Discovery Call",
     "timelineTitle": "Professional Journey"
   },
   "timeline": {
     "entries": [
       { "date": "2025", "title": "Head of Data and Cloud", "location": "NOW GmbH", "description": "Leading the data strategy and team, AWS infrastructure, and driving data-driven initiatives across the organization.", "icon": "work" },
-      { "date": "2024", "title": "Data Engineer", "location": "NOW GmbH", "description": "Development and maintenance of various ETL pipelines in AWS. Administration of AWS infrastructure. Successful initiatives of AWS Certification Sprint 1, internal hackathon, women mentorship program.", "icon": "work" },
+      { "date": "2024", "title": "Data Engineer", "location": "NOW GmbH", "description": "Development and maintenance of various ETL pipelines in AWS. Administration of AWS infrastructure. Successful initiatives of AWS Certification Sprint 1, internal hackathon, mentorship program.", "icon": "work" },
       { "date": "2023", "title": "Consultant AI & Data Analytics", "location": "Deloitte", "description": "Comprehensive analysis of bank transaction data, NLP and ML solutions for several user cases.", "icon": "work" },
       { "date": "2022", "title": "Digital Analyst", "location": "Digital Motion GmbH", "description": "Automatic data pipeline in AWS for reporting and dashboards, Google analytics 4 migration, Web tracking concepts.", "icon": "work" },
       { "date": "2020", "title": "Research Associate", "location": "Julius Kühn-Institut", "description": "\"HortiSem\" Project for the semantic web", "icon": "work" },
@@ -40,16 +40,16 @@ const en = {
   },
   "mentoring": {
     "title": "Mentoring Services",
-    "intro": "As a data leader, I provide personalized mentorship to help you excel in your tech career, with a focus on practical guidance, real-world experience, and professional growth.",
+    "intro": "As Head of Data & Cloud, I offer personalized mentorship grounded in real leadership experience — practical guidance for careers in data, cloud, and AI.",
     "rightForYouTitle": "This mentorship is right for you if:",
-    "rightForYou1": "you are transitioning into the tech industry and need guidance and clarity",
-    "rightForYou2": "you are a woman working in a male-dominated field and want strategies to thrive with confidence",
-    "rightForYou3": "you are returning to the job market after a career break and want to relaunch your career successfully",
-    "rightForYou4": "you are an international professional aiming to work and build a career in Germany",
-    "rightForYou5": "you are a woman and a mother seeking practical ways to balance career growth with family life",
+    "rightForYou1": "you are transitioning into tech and need clarity on roles, skills, and next steps",
+    "rightForYou2": "you are growing into a technical or leadership role and want strategies to lead with confidence",
+    "rightForYou3": "you are returning to the job market after a career break and want to relaunch successfully",
+    "rightForYou4": "you are an international professional aiming to build a career in Germany",
+    "rightForYou5": "you want to move into data, cloud, or AI leadership and need practical guidance for the transition",
     "rightForYou6": "you feel ready to make a change and take the next step in your professional journey",
     "whyWorkWithMeTitle": "Why Work With Me",
-    "whyWorkWithMe1": "Successfully transitioned from a stay-at-home international mother of two to a data leadership position",
+    "whyWorkWithMe1": "Built a path from career reinvention into a Head of Data & Cloud role — with an international background",
     "whyWorkWithMe2": "Broad experience across research institutes as well as small, medium, and large consulting organizations in data and AI",
     "whyWorkWithMe3": "Proven ability to navigate career transitions and change roles strategically in a fast-moving job market",
     "whyWorkWithMe4": "Hands-on experience across multiple data roles, including Data Analyst, Data Engineer, Data Scientist, and now Data Leader",
@@ -59,14 +59,14 @@ const en = {
     "packageMaterials": "Curated materials & resources",
     "packageCta": "Book Your Free Discovery Call",
     "packages": {
-      "womenEmpowerment": {
-        "title": "Women Empowerment",
-        "description": "Specialized mentorship for women navigating and thriving in the tech industry.",
+      "techLeadership": {
+        "title": "Tech Leadership",
+        "description": "Mentorship for professionals stepping into or growing in data, cloud, and AI leadership.",
         "features": [
-          "Overcoming industry challenges and biases",
-          "Building confidence in technical and leadership roles",
-          "Networking strategies and community building",
-          "Work-life balance and self-advocacy"
+          "Leading with clarity in technical and organizational contexts",
+          "Building confidence for senior and leadership roles",
+          "Visibility, networking, and personal brand",
+          "Navigating the transition from IC to leadership"
         ]
       },
       "transitionToTechAndCareer": {
@@ -98,7 +98,7 @@ const en = {
     "testimonial3": "As a single mom returning to work after 5 years, Xia helped me rebuild my confidence and create a clear path to financial independence. Her structured approach and encouragement made all the difference. I got 2 opportunities after just two months!",
     "testimonial3Author": "— Katharina S., Freelancer",
     "ctaTitle": "Ready to take the next step in your journey?",
-    "ctaDescription": "Let's discuss how mentorship can help you build confidence, develop skills, and find direction in your career.",
+    "ctaDescription": "Let's discuss how mentorship can help you build skills, direction, and momentum in data, cloud, and AI.",
     "ctaButton": "Book Your Free Discovery Call"
   },
   "bookCall": {
@@ -176,8 +176,8 @@ const en = {
     "goal5": "you want a structured, guided learning system instead of scattered tutorials",
     "whyLearnTitle": "Why Learn With Me?",
     "whyLearn1": "I don't just explain AI; I help you succeed in the AI age. Whether it's prototyping, strategy, or coding, I show you how to use AI to achieve more with confidence and clarity. I will guide you in building a \"Learning Loop\"—a practical approach to breaking complex technology into manageable, repeatable bites—so you can continuously adapt, grow, and master the most important skill of the AI age: the ability of learning.",
-    "whyLearn2": "From a full-time stay-at-home mom to data leader, my journey has been defined by one thing: the power of habit and curiosity. Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and have since applied these technologies across production systems, leadership roles, and data-driven strategy.",
-    "whyLearnLink": "Watch my interview: From Full-Time Mom to Head of Data",
+    "whyLearn2": "My path into data leadership has been defined by one thing: the power of habit and curiosity. Along the way, I built a strong technical foundation that grounds everything I teach today. I bring both deep technical expertise and real-world perspective to learning AI. My background is in Data Science, with hands-on industry experience in machine learning and deep learning. I began my career in research, working on Natural Language Processing (NLP)—long before AI became a buzzword—and have since applied these technologies across production systems, leadership roles, and data-driven strategy.",
+    "whyLearnLink": "Watch my interview: Path to Head of Data",
     "testimonialsTitle": "What Participants Say",
     "sprintTestimonial1": "The AI Kickstart Sprint is ideal for anyone starting their journey into AI literacy. From understanding the way AI works, to distinguishing different AI tools, to vibe coding your own Website - this AI KICKSTART will set you up for exploring the endless possibilities of incorporating AI in your everyday life - personal & professional. Xia is a very competent and empathetic teacher, who is always eager to give the best value possible.",
     "sprintTestimonial1Author": "Katharina Schoeninger",

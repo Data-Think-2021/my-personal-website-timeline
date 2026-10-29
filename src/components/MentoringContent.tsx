@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { getLocalePrefix, getMessage, getTranslation, type Locale } from '@/lib/i18n';
 
-const PACKAGE_KEYS = ['womenEmpowerment', 'transitionToTechAndCareer', 'sideProjectAndEntrepreneurship'] as const;
+const PACKAGE_KEYS = ['techLeadership', 'transitionToTechAndCareer', 'sideProjectAndEntrepreneurship'] as const;
 
 interface MentoringPackage {
   title: string;

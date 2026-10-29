@@ -5,7 +5,7 @@ A professional website showcasing my journey in tech, expertise in data engineer
 ## Features
 
 - Professional timeline of experience
-- Mentoring services (Transition to Tech, Career Growth, Entrepreneur Journey, Women Empowerment)
+- Mentoring services (Tech Leadership, Transition to Tech & Career, Side Project & Entrepreneurship)
 - Contact form integration
 - Calendly booking integration
 - Responsive design

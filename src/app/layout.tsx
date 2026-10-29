@@ -15,17 +15,15 @@ const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default:
-      "Helping people thrive in Data, Cloud & AI through learning and mentorship",
+    default: "Data, Cloud & AI. With purpose and impact",
     template: `%s | ${AUTHOR_NAME}`,
   },
   description:
-    "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
+    "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
   openGraph: {
-    title:
-      "Helping people thrive in Data, Cloud & AI through learning and mentorship",
+    title: "Data, Cloud & AI. With purpose and impact",
     description:
-      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
+      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     url: "/",
     siteName: "DataThinker",
     images: [
@@ -33,17 +31,16 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "DataThinker - Empowering Women in Tech",
+        alt: "DataThinker — Data, Cloud & AI Leadership",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Helping people thrive in Data, Cloud & AI through learning and mentorship",
+    title: "Data, Cloud & AI. With purpose and impact",
     description:
-      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career reinvention.",
+      "Xia He-Bleinagel, Head of Data & Cloud at NOW GmbH, Berlin. Data & AI strategy that ships. Cloud Governance. Speaker and mentor on tech, leadership and career growth.",
     images: ["/opengraph-image"],
   },
   ...(googleVerification
