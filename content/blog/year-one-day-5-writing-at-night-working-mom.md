@@ -3,6 +3,7 @@ title: "Day 5: Why I Publish Between 10pm and Midnight"
 date: "2026-08-27"
 excerpt: "A working mom's day from 5:30am to publish time — and how a public commitment made writing stick."
 tags: ["YearOne", "100-days", "leadership", "working-mom", "commitment", "habits"]
+category: "balance-belonging"
 ---
 
 # Day 5: Why I Publish Between 10pm and Midnight

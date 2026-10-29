@@ -3,6 +3,7 @@ title: "Day 24: Can Empathy Actually Be Trained?"
 date: "2026-09-15"
 excerpt: "A small change at dinner with my kids — and what it taught me about practicing empathy at home and at work."
 tags: ["YearOne", "100-days", "leadership", "empathy", "parenting"]
+category: "leading-people"
 ---
 
 # Day 24: Can Empathy Actually Be Trained?

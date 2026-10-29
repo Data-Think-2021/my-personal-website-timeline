@@ -3,6 +3,7 @@ title: "Day 41: Mentorship Story - Structure Turns Ambition Into Momentum"
 date: "2025-10-11"
 excerpt: "Sharing a mentorship story about helping a master's student navigate the job market, and the importance of structure in turning ambition into actionable steps."
 tags: ["leadership", "100-days", "women-in-data", "career-growth", "mentoring", "data-analytics", "ai", "learning-journey"]
+category: "mentorship-community"
 ---
 
 #MentorshipStory 1/2

@@ -3,6 +3,7 @@ title: "Day 98: Building a Holiday Planning App - My AI Tool Experiments"
 date: "2025-12-07"
 excerpt: "After missing hands-on coding, I built a full-stack Holiday Planning App using various AI tools, comparing ChatGPT, Lovable, Cursor, and Google Antigravity (Gemini 3 Pro)."
 tags: ["leadership", "100-days", "ai", "coding", "prototyping", "productivity", "full-stack", "experimentation"]
+category: "data-cloud-ai"
 ---
 
 Are you still managing team holidays with endless Excel sheets?

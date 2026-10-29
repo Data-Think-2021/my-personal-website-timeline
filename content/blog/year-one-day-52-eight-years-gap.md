@@ -3,6 +3,7 @@ title: "Day 52: Eight Years — Not Only Lost Time"
 date: "2026-10-13"
 excerpt: "Eight years between university and my first data job. I've stopped seeing them only as lost time."
 tags: ["YearOne", "100-days", "leadership", "career-change", "reflection"]
+category: "career-path"
 ---
 
 # Day 52: Eight Years — Not Only Lost Time

@@ -3,6 +3,7 @@ title: "Day 85: Building a Data & Cloud Strategy - Questions for Fellow Leaders"
 date: "2025-11-24"
 excerpt: "Reaching out to the data leader community for insights on building an integrated data and cloud strategy, including questions about structure, pillars, and stakeholder involvement."
 tags: ["leadership", "100-days", "data-strategy", "cloud-strategy", "hybrid-cloud", "data-governance", "leadership-challenge"]
+category: "data-cloud-ai"
 ---
 
 A gentle ask to the data leaders in my network 👋

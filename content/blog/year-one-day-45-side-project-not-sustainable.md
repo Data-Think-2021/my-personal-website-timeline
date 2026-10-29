@@ -3,6 +3,7 @@ title: "Day 45: I Failed at Making My Side Project Sustainable"
 date: "2026-10-06"
 excerpt: "The idea worked. People paid. But without mental space, it couldn't become sustainable — and that's okay for now."
 tags: ["YearOne", "100-days", "leadership", "side-project", "business"]
+category: "career-path"
 ---
 
 # Day 45: I Failed at Making My Side Project Sustainable

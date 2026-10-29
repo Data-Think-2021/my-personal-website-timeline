@@ -3,6 +3,7 @@ title: "Day 28: We Shut Down a Dashboard for One User"
 date: "2026-09-19"
 excerpt: "Years of code, infra, and cloud cost for a single user — effort is not value."
 tags: ["YearOne", "100-days", "leadership", "productivity", "fake-work", "data"]
+category: "data-cloud-ai"
 ---
 
 # Day 28: We Shut Down a Dashboard for One User

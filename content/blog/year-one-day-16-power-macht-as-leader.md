@@ -3,6 +3,7 @@ title: "Day 16: Understanding Power as a Leader"
 date: "2026-09-07"
 excerpt: "Macht isn't a word we like to say out loud — but leadership comes with power, and I choose how to use it."
 tags: ["YearOne", "100-days", "leadership", "power", "reflection"]
+category: "leading-people"
 ---
 
 # Day 16: Understanding Power as a Leader

@@ -3,6 +3,7 @@ title: "Day 50: Halfway There"
 date: "2026-10-11"
 excerpt: "Halfway through 100 Days of Year One — reflection and documentation beyond reach made the habit stick."
 tags: ["YearOne", "100-days", "leadership", "reflection", "habits"]
+category: "career-path"
 ---
 
 # Day 50: Halfway There

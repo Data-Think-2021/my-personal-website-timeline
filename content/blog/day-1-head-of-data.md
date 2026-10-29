@@ -3,6 +3,7 @@ title: "Day 1: Starting My Journey as Head of Data and Cloud"
 date: "2025-09-01"
 excerpt: "Reflections on my first day in the new role and what I'm most excited about."
 tags: ["leadership", "data", "career", "100-days"]
+category: "career-path"
 ---
 
 # Day 1: Starting My Journey as Head of Data and Cloud

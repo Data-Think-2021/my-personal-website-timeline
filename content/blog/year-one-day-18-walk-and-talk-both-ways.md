@@ -3,6 +3,7 @@ title: "Day 18: Walk & Talk Goes Both Ways"
 date: "2026-09-09"
 excerpt: "Giving back through Walk & Talk — and what I learned from Hamza Ayaz along the way."
 tags: ["YearOne", "100-days", "leadership", "mentorship", "giving-back"]
+category: "mentorship-community"
 ---
 
 # Day 18: Walk & Talk Goes Both Ways

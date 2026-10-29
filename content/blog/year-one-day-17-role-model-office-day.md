@@ -3,6 +3,7 @@ title: "Day 17: You Have to Be a Role Model"
 date: "2026-09-08"
 excerpt: "I asked my team to show up on office day while I wasn't — until a peer told me the truth."
 tags: ["YearOne", "100-days", "leadership", "role-model", "reflection", "hybrid"]
+category: "leading-people"
 ---
 
 # Day 17: You Have to Be a Role Model

@@ -3,6 +3,7 @@ title: "Day 59: A Sense of Urgency Needs an Off Switch"
 date: "2026-10-20"
 excerpt: "A colleague called my sense of urgency a strength. Lately I've started to see the other side of it."
 tags: ["YearOne", "100-days", "feedback", "urgency", "balance", "leadership"]
+category: "balance-belonging"
 ---
 
 # Day 59: A Sense of Urgency Needs an Off Switch

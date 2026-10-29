@@ -3,6 +3,7 @@ title: "Day 53: If We Don't Have an AI Team, Who Is Responsible for AI?"
 date: "2026-10-14"
 excerpt: "Hiring AI specialists isn't always an option. Why not apply data mesh thinking to AI adoption — an AI Mesh?"
 tags: ["YearOne", "100-days", "ai-adoption", "ai-mesh", "data-mesh", "strategy"]
+category: "data-cloud-ai"
 ---
 
 # Day 53: If We Don't Have an AI Team, Who Is Responsible for AI?

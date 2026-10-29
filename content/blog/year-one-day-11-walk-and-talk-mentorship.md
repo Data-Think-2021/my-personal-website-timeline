@@ -3,6 +3,7 @@ title: "Day 11: Walk & Talk Mentorship"
 date: "2026-09-02"
 excerpt: "Free 20–30 minute mentorship calls during my morning dog walks — with one clear ask in return."
 tags: ["YearOne", "100-days", "leadership", "mentorship", "giving-back"]
+category: "mentorship-community"
 ---
 
 # Day 11: Walk & Talk Mentorship

@@ -3,6 +3,7 @@ title: "Day 19: Improve Team Meetings"
 date: "2025-09-19"
 excerpt: "Reflecting on a week packed with meetings and sharing principles for making meetings more effective and collaborative."
 tags: ["leadership", "100-days", "teamwork", "productivity", "meeting-culture", "okr"]
+category: "leading-people"
 ---
 
 This week was packed with many meetings: OKR review&retro, OKR planning, team monthly meeting, Terraform refactoring planning, DWH vision, new project discussions, and 1:1s. Some of these happen regularly (like OKRs every tertial), others are ad-hoc.

@@ -3,6 +3,7 @@ title: "Day 48: Treat German Like a Core Technical Skill"
 date: "2026-10-09"
 excerpt: "We rejected strong candidates for German — and my own first chance came thanks to language skills."
 tags: ["YearOne", "100-days", "leadership", "german", "hiring", "career"]
+category: "hiring-talent"
 ---
 
 # Day 48: Treat German Like a Core Technical Skill

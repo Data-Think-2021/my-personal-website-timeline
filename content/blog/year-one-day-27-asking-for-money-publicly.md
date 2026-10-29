@@ -3,6 +3,7 @@ title: "Day 27: Asking for Money Publicly Felt Scary"
 date: "2026-09-18"
 excerpt: "Starting a GoFundMe taught me that doing what you believe is right often means being uncomfortable."
 tags: ["YearOne", "100-days", "leadership", "gofundme", "courage"]
+category: "mentorship-community"
 ---
 
 # Day 27: Asking for Money Publicly Felt Scary

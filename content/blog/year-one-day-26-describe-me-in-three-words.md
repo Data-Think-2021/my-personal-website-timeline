@@ -3,6 +3,7 @@ title: "Day 26: Describe Me in Three Words"
 date: "2026-09-17"
 excerpt: "Turning my favourite interview question around — how would you describe me in three words?"
 tags: ["YearOne", "100-days", "leadership", "self-reflection", "caring"]
+category: "leading-people"
 ---
 
 # Day 26: Describe Me in Three Words

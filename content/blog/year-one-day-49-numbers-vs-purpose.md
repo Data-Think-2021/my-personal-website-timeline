@@ -3,6 +3,7 @@ title: "Day 49: When Numbers Matter Less Than Purpose"
 date: "2026-10-10"
 excerpt: "I analysed 48 posts: daily posting didn't win. I stopped optimising for reach and kept writing for reflection."
 tags: ["YearOne", "100-days", "leadership", "purpose", "linkedin", "data"]
+category: "career-path"
 ---
 
 # Day 49: When Numbers Matter Less Than Purpose

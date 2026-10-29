@@ -3,6 +3,7 @@ title: "Day 9: A One-Year Review With AI — and Eight Hard Questions"
 date: "2026-08-31"
 excerpt: "What AI can summarize about your year, what only you can answer — and the belief I no longer hold."
 tags: ["YearOne", "100-days", "leadership", "ai", "reflection", "one-year"]
+category: "career-path"
 ---
 
 # Day 9: A One-Year Review With AI — and Eight Hard Questions

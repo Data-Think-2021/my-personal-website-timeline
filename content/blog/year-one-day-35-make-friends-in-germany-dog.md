@@ -3,6 +3,7 @@ title: "Day 35: How Do You Make Friends in Germany? Get a Dog"
 date: "2026-09-26"
 excerpt: "Happy the dog introduced us to the whole village — connection starts with small talk and shared interest."
 tags: ["YearOne", "100-days", "leadership", "belonging", "germany", "connection"]
+category: "balance-belonging"
 ---
 
 # Day 35: How Do You Make Friends in Germany? Get a Dog

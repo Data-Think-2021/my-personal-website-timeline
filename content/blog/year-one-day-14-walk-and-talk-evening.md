@@ -3,6 +3,7 @@ title: "Day 14: Walk & Talk for Night Owls Too"
 date: "2026-09-05"
 excerpt: "A second mentorship slot in the late afternoon — because not everyone is an early bird."
 tags: ["YearOne", "100-days", "leadership", "mentorship", "giving-back"]
+category: "mentorship-community"
 ---
 
 # Day 14: Walk & Talk for Night Owls Too

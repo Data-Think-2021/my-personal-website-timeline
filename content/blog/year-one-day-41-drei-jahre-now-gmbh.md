@@ -3,6 +3,7 @@ title: "Day 41: 3 Jahre bei der NOW GmbH"
 date: "2026-10-02"
 excerpt: "Dankbar für Team, Kolleg:innen, sinnvolle Projekte und Raum zum Wachsen — 1 Jahr als Head of Data & Cloud."
 tags: ["YearOne", "100-days", "leadership", "gratitude", "now-gmbh"]
+category: "career-path"
 ---
 
 # Day 41: 3 Jahre bei der NOW GmbH

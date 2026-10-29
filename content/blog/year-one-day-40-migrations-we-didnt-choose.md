@@ -3,6 +3,7 @@ title: "Day 40: Migrations We Didn't Choose"
 date: "2026-10-01"
 excerpt: "Four causes of migration projects — and only one was within our control."
 tags: ["YearOne", "100-days", "leadership", "migration", "aws", "compliance"]
+category: "data-cloud-ai"
 ---
 
 # Day 40: Migrations We Didn't Choose

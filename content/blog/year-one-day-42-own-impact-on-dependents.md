@@ -3,6 +3,7 @@ title: "Day 42: You Also Own the Impact on People Who Depend on You"
 date: "2026-10-03"
 excerpt: "Good individual work isn't enough if delays quietly make everyone else's work harder."
 tags: ["YearOne", "100-days", "leadership", "teamwork", "contribution", "impact"]
+category: "leading-people"
 ---
 
 # Day 42: You Also Own the Impact on People Who Depend on You

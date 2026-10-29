@@ -3,6 +3,7 @@ title: "Day 8: Keeping Daily Standup Despite Pushback"
 date: "2026-08-30"
 excerpt: "The first change I introduced was unpopular — months later, a colleague told me he missed it when it didn't happen."
 tags: ["YearOne", "100-days", "leadership", "team-building", "teamwork"]
+category: "leading-people"
 ---
 
 # Day 8: Keeping Daily Standup Despite Pushback

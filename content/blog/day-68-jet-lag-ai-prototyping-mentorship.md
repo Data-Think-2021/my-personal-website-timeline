@@ -3,6 +3,7 @@ title: "Day 68: Jet Lag, AI Prototyping, and the Junior Developer Crisis"
 date: "2025-11-07"
 excerpt: "Waking up at 2am with jet lag leads to creating an AI tool in 30 minutes and reflecting on the challenges facing junior developers in the AI age."
 tags: ["leadership", "100-days", "ai", "prototyping", "mentorship", "career-development", "technology"]
+category: "data-cloud-ai"
 ---
 What will you do if you wake up at 2am due to jet lag?
 

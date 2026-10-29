@@ -3,6 +3,7 @@ title: "Day 10: Week 2 Highlights"
 date: "2025-09-10"
 excerpt: "Sharing highlights from our weekly tech & code session, successful repository migration, and implementing data mesh approach for data ownership."
 tags: ["leadership", "career", "100-days", "tech-lead", "coding", "knowledge-transfer", "collaboration", "pair-programming"]
+category: "leading-people"
 ---
 
 One of today's highlights was our weekly tech & code session with pair programming time.

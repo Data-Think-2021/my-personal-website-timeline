@@ -3,6 +3,7 @@ title: "Day 10: One Year as a Leader — Three Questions to Ask First"
 date: "2026-09-01"
 excerpt: "Before you become a manager: ask yourself about people work, rest, and letting go of hands-on technical work."
 tags: ["YearOne", "100-days", "leadership", "career", "management", "one-year"]
+category: "career-path"
 ---
 
 # Day 10: One Year as a Leader — Three Questions to Ask First

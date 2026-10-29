@@ -3,6 +3,7 @@ title: "Day 25: Fair Doesn't Mean Treating Everyone the Same"
 date: "2026-09-16"
 excerpt: "What my daughter's teacher taught me about strengths — and how I apply it to leading a team."
 tags: ["YearOne", "100-days", "leadership", "strengths", "individual", "parenting"]
+category: "leading-people"
 ---
 
 # Day 25: Fair Doesn't Mean Treating Everyone the Same

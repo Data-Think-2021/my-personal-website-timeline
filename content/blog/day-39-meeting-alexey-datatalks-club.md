@@ -3,6 +3,7 @@ title: "Day 39: Meeting Alexey from DataTalks.Club - A Full Circle Moment"
 date: "2025-10-09"
 excerpt: "Reflecting on meeting Alexey in person, the impact of DataTalks.Club courses on my career, and the upcoming podcast collaboration."
 tags: ["leadership", "100-days", "learning", "opensource", "datacommunity", "datatalksclub", "mentorship"]
+category: "mentorship-community"
 ---
 
 Yesterday I finally met Alexey — the amazing mind behind DataTalks.Club — in person over lunch.

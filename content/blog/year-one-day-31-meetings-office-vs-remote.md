@@ -3,6 +3,7 @@ title: "Day 31: Does This Meeting Really Need Everyone in the Office?"
 date: "2026-09-22"
 excerpt: "Before I send an invite, I check whether we need to discuss, interact, or build — or if remote is enough."
 tags: ["YearOne", "100-days", "leadership", "meetings", "remote-work", "office"]
+category: "leading-people"
 ---
 
 # Day 31: Does This Meeting Really Need Everyone in the Office?

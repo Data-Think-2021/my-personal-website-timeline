@@ -3,6 +3,7 @@ title: "Day 20: The Most Valuable Thing a Manager Can Give Is Time"
 date: "2026-09-11"
 excerpt: "Protecting 1:1 time sends a simple message: you matter. And you can manage up too."
 tags: ["YearOne", "100-days", "leadership", "1on1", "time"]
+category: "leading-people"
 ---
 
 # Day 20: The Most Valuable Thing a Manager Can Give Is Time

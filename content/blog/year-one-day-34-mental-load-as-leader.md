@@ -3,6 +3,7 @@ title: "Day 34: Mental Load as a Leader"
 date: "2026-09-25"
 excerpt: "I underestimated carrying the full picture of every topic — and I'm learning to let go of ownership."
 tags: ["YearOne", "100-days", "leadership", "mental-load", "sandwich-management"]
+category: "leading-people"
 ---
 
 # Day 34: Mental Load as a Leader

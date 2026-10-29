@@ -3,6 +3,7 @@ title: "Day 12: Integration Starts When Someone Goes First"
 date: "2026-09-03"
 excerpt: "From culture shock in Berlin to organizing neighborhood festivals — why communities don't move by themselves."
 tags: ["YearOne", "100-days", "leadership", "community", "courage", "integration"]
+category: "mentorship-community"
 ---
 
 # Day 12: Integration Starts When Someone Goes First

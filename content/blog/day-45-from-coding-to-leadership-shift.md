@@ -3,6 +3,7 @@ title: "Day 45: From Coding to Leadership - The Shift in Priorities"
 date: "2025-10-15"
 excerpt: "Reflecting on the shift from hands-on coding to leadership, and what actually fills a tech leader's time when code becomes a small part of the role."
 tags: ["leadership", "100-days", "growth-mindset", "purpose-driven", "tech-leadership", "team-building"]
+category: "leading-people"
 ---
 
 &quot;I only created two pull requests last month. Two!&quot; 😅

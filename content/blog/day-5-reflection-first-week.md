@@ -3,6 +3,7 @@ title: "Day 5: Reflection on My First Week as Head of Data & Cloud"
 date: "2025-09-05"
 excerpt: "Wrapping up my first week with positive feedback and key learnings about leadership, communication, and staying hands-on."
 tags: ["leadership", "data", "career", "100-days", "reflection", "team-management"]
+category: "leading-people"
 ---
 
 # Day 5/100 as Head of Data & Cloud

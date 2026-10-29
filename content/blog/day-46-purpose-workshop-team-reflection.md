@@ -3,6 +3,7 @@ title: "Day 46: Purpose Workshop - Unser gemeinsames 'Warum' finden"
 date: "2025-10-16"
 excerpt: "Reflexion über den selbstorganisierten Purpose-Workshop mit dem Team und die Erkenntnisse über Team-Entwicklung, Motivation und gemeinsame Ausrichtung."
 tags: ["leadership", "100-days", "purpose", "team-development", "cloud", "data", "innovation", "growth-mindset"]
+category: "leading-people"
 ---
 
 Warum tun wir, was wir tun? Was treibt uns wirklich an?

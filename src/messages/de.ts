@@ -403,6 +403,26 @@ const de = {
     "thankYou": "Danke für deine Anmeldung!",
     "thankYouSub": "Schau in dein Postfach für die nächsten Schritte. Melde mich bald bei dir!",
     "joining": "Wird angemeldet..."
+  },
+  "blog": {
+    "title": "Mein Blog",
+    "subtitle": "Gedanken zu Data, Leadership und meinem Weg als Head of Data and Cloud",
+    "filterLabel": "Nach Kategorie filtern",
+    "allCategories": "Alle",
+    "distributionTitle": "Beiträge nach Kategorie",
+    "postCount": "{count} Beiträge",
+    "postCountOne": "1 Beitrag",
+    "readMore": "Weiterlesen →",
+    "backToBlog": "← Zurück zum Blog",
+    "empty": "In dieser Kategorie gibt es noch keine Beiträge.",
+    "categories": {
+      "leading-people": "Menschen & Teams führen",
+      "data-cloud-ai": "Data, Cloud & AI",
+      "hiring-talent": "Hiring & Talent",
+      "career-path": "Karriereweg & Übergang",
+      "mentorship-community": "Mentoring & Community",
+      "balance-belonging": "Balance & Belonging"
+    }
   }
 } as const;
 export default de;

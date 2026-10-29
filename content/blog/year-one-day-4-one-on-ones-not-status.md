@@ -3,6 +3,7 @@ title: "Day 4: A 1:1 Shouldn't Be a Status Update"
 date: "2026-08-26"
 excerpt: "How I structure monthly 1:1s so they become space for managing up, feedback, and real conversation."
 tags: ["YearOne", "100-days", "leadership", "1on1", "management"]
+category: "leading-people"
 ---
 
 # Day 4: A 1:1 Shouldn't Be a Status Update

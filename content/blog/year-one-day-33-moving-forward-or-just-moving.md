@@ -3,6 +3,7 @@ title: "Day 33: Am I Moving Forward, or Just Moving?"
 date: "2026-09-24"
 excerpt: "One third into the series — pausing to ask what I'm actually learning and building."
 tags: ["YearOne", "100-days", "leadership", "reflection", "meaning"]
+category: "career-path"
 ---
 
 # Day 33: Am I Moving Forward, or Just Moving?

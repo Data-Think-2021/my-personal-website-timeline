@@ -3,6 +3,7 @@ title: "Day 60: AI Won't Be a Small Box Anymore"
 date: "2026-10-21"
 excerpt: "In 2023, AI was a small innovation box in our data strategy. Today it needs a central seat."
 tags: ["YearOne", "100-days", "data-strategy", "ai-strategy", "transformation"]
+category: "data-cloud-ai"
 ---
 
 # Day 60: AI Won't Be a Small Box Anymore

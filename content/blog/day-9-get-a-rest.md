@@ -3,6 +3,7 @@ title: "Day 9: Get a Rest"
 date: "2025-09-09"
 excerpt: "Reflecting on the mental load of leadership and the importance of taking breaks, even when the task list keeps growing."
 tags: ["leadership", "career", "100-days", "work-life-balance", "mental-health", "reflection"]
+category: "balance-belonging"
 ---
 
 I once thought (naively) that my brain would no more feel that heavy if I don't have to dive deep into coding and logical problem-solving. Turns out, I was wrong.

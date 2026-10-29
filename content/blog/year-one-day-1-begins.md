@@ -3,6 +3,7 @@ title: "Day 1: 100 Days of Year One Begins"
 date: "2026-08-23"
 excerpt: "Starting another 100-day challenge: looking back at my first year as a leader."
 tags: ["YearOne", "100-days", "leadership", "reflection"]
+category: "career-path"
 ---
 
 # Day 1: 100 Days of Year One Begins

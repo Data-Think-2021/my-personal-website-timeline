@@ -3,6 +3,7 @@ title: "From a full-time mom to transit to tech"
 date: "2022-12-31"
 excerpt: "A personal journey from being a full-time stay-at-home mom to data science, sharing the challenges, learnings, and triumphs of career transition while raising two children."
 tags: ["career", "transition", "data-science", "women-in-tech", "personal-journey", "mentorship", "resilience"]
+category: "career-path"
 ---
 
 ## The Headhunter's Call

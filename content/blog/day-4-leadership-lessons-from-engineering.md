@@ -3,6 +3,7 @@ title: "Day 4: Leadership Lessons I Learned as an Engineer"
 date: "2025-09-04"
 excerpt: "How my technical background shaped my approach to leadership and team management."
 tags: ["leadership", "engineering", "career", "management"]
+category: "leading-people"
 ---
 
 # Leadership Lessons I Learned as an Engineer

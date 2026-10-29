@@ -3,6 +3,7 @@ title: "Day 54: Data by Design"
 date: "2026-10-15"
 excerpt: "People expect a new tool to solve their problems. Sometimes the real problem is the data behind it."
 tags: ["YearOne", "100-days", "data-strategy", "reporting", "data-collection"]
+category: "data-cloud-ai"
 ---
 
 # Day 54: Data by Design

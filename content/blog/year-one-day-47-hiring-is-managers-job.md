@@ -3,6 +3,7 @@ title: "Day 47: Hiring Is the Manager's Job"
 date: "2026-10-08"
 excerpt: "HR helps, but finding great people means networking, events, and active outreach — not waiting for the job ad."
 tags: ["YearOne", "100-days", "leadership", "hiring", "networking"]
+category: "hiring-talent"
 ---
 
 # Day 47: Hiring Is the Manager's Job

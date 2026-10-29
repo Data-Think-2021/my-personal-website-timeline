@@ -3,6 +3,7 @@ title: "Day 3: One of the Most Beautiful Moments at Work"
 date: "2026-08-25"
 excerpt: "A teammate quietly did my workshop follow-up work without being asked — a small moment that stays with me."
 tags: ["YearOne", "100-days", "leadership", "team", "gratitude"]
+category: "leading-people"
 ---
 
 # Day 3: One of the Most Beautiful Moments at Work

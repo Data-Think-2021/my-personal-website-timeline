@@ -3,6 +3,7 @@ title: "Day 19: Building a Personal Brand Is a Part-Time Job"
 date: "2026-09-10"
 excerpt: "7–10 hours a week on LinkedIn, 1–1.5 hours per post — show up, and keep refining."
 tags: ["YearOne", "100-days", "leadership", "personal-brand", "linkedin", "writing"]
+category: "career-path"
 ---
 
 # Day 19: Building a Personal Brand Is a Part-Time Job

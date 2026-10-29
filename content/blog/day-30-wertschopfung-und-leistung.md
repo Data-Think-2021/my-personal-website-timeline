@@ -3,6 +3,7 @@ title: "Day 30: Wertschöpfung und Leistung - Der Kern der Führung"
 date: "2025-09-30"
 excerpt: "Eine wichtige Reflexion über Wertschöpfung, Leistung und den wahren Zweck von Leadership - inspiriert durch ein Coaching-Gespräch."
 tags: ["leadership", "100-days", "mindset", "growth", "team-empowerment", "value-creation"]
+category: "leading-people"
 ---
 
 Letzte Woche hat mir meine Coach Dagmar eine einfache, aber kraftvolle Frage gestellt:

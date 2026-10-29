@@ -3,6 +3,7 @@ title: "Day 46: Capacity Problems Can't Be Solved by Prioritisation Alone"
 date: "2026-10-07"
 excerpt: "When big org projects land without capacity, quality and satisfaction drop — the trade-off must be visible."
 tags: ["YearOne", "100-days", "leadership", "capacity", "saying-yes"]
+category: "leading-people"
 ---
 
 # Day 46: Capacity Problems Can't Be Solved by Prioritisation Alone

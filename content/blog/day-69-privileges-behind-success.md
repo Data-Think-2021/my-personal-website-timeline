@@ -3,6 +3,7 @@ title: "Day 69: The Privileges Behind Success - An Honest Reflection"
 date: "2025-11-08"
 excerpt: "An honest reflection on the privileges that made the journey from full-time mom to data leader possible, and acknowledging that not everyone has the same resources."
 tags: ["leadership", "100-days", "privilege-and-perspective", "independence", "immigration", "career-growth"]
+category: "career-path"
 ---
 
 On LinkedIn, we often see people sharing their success stories — but we seldom talk about the privileges that make those successes possible.

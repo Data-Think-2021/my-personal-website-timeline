@@ -3,6 +3,7 @@ title: "Day 79: Mentoring Success Stories - When People Believe in Themselves"
 date: "2025-11-18"
 excerpt: "Sharing two powerful mentoring success stories and reflecting on the impact of believing in people, the reciprocal nature of mentorship, and the importance of confidence."
 tags: ["leadership", "100-days", "mentoring", "empowering", "women-help-women", "career-growth", "confidence"]
+category: "mentorship-community"
 ---
 
 Last week reminded me why I love mentoring and giving back.

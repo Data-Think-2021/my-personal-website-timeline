@@ -3,6 +3,7 @@ title: "Day 7: Why German B2 Is a Hard Requirement"
 date: "2026-08-29"
 excerpt: "We didn't hire a strong senior engineer with A2 German — and what that taught me about team function and culture."
 tags: ["YearOne", "100-days", "leadership", "hiring", "german", "team"]
+category: "hiring-talent"
 ---
 
 # Day 7: Why German B2 Is a Hard Requirement

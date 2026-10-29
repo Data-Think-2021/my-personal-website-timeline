@@ -3,6 +3,7 @@ title: "Day 44: Inboarding vs Onboarding for New Leaders"
 date: "2026-10-05"
 excerpt: "Eine interne Beförderung ist auch ein neuer Job — und ich hätte mir ein praktisches Inboarding gewünscht."
 tags: ["YearOne", "100-days", "leadership", "buddy", "inboarding", "onboarding"]
+category: "career-path"
 ---
 
 # Day 44: Inboarding vs Onboarding for New Leaders

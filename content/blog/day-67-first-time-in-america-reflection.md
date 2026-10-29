@@ -3,6 +3,7 @@ title: "Day 67: First Time in America - A Journey of Reflection"
 date: "2025-11-06"
 excerpt: "Reflecting on a first trip to America and Canada, exploring the American Dream, immigration history, cultural differences, and observations about both countries."
 tags: ["leadership", "100-days", "reflection", "travel", "america", "immigration", "culture"]
+category: "balance-belonging"
 ---
 
 

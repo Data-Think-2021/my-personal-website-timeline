@@ -3,6 +3,7 @@ title: "Day 42: Working Mom Project - Financial Independence Through Structure"
 date: "2025-10-12"
 excerpt: "Sharing the story of the Working Mom Project and how helping a single mom re-enter the workforce through creative freelancing demonstrates that empowerment comes from believing in one's potential."
 tags: ["leadership", "100-days", "women-in-business", "mentorship", "entrepreneurship", "inspiration", "marketing", "ai", "working-moms", "speaker", "freelancing"]
+category: "mentorship-community"
 ---
 
 Financial independence isn&apos;t just about money — it&apos;s about confidence, choices, and freedom.

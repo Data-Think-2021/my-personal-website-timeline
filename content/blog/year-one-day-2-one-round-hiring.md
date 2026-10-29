@@ -3,6 +3,7 @@ title: "Day 2: We Hire in One Round"
 date: "2026-08-24"
 excerpt: "How we make confident hiring decisions in a single 90-minute panel interview."
 tags: ["YearOne", "100-days", "leadership", "hiring", "team"]
+category: "hiring-talent"
 ---
 
 # Day 2: We Hire in One Round

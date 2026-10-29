@@ -3,6 +3,7 @@ title: "Day 25: Daily Check-ins - A Leadership Decision"
 date: "2025-09-25"
 excerpt: "Reflecting on the decision to introduce daily check-ins, the value of clear communication, and learning when leadership requires making a call rather than seeking consensus."
 tags: ["leadership", "100-days", "team-management", "communication", "remote-work"]
+category: "leading-people"
 ---
 
 When I first joined my team, I introduced daily check-ins after talking with each team member. As someone new to the leadership role, I framed it as a trial — we&apos;d decide together after one month whether to keep it.

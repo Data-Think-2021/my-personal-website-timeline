@@ -3,6 +3,7 @@ title: "Day 70: To-Do-Listen - Struktur schafft Freiheit"
 date: "2025-11-09"
 excerpt: "Eine persönliche Geschichte darüber, wie eine einfache To-Do-Liste meiner Tochter half, und wie Struktur sowohl im Familienalltag als auch in der Arbeit Freiheit ermöglicht."
 tags: ["leadership", "100-days", "structure", "productivity", "teamwork", "to-do-liste", "family"]
+category: "balance-belonging"
 ---
 
 &quot;Mama, kannst du mir bitte eine Liste aufschreiben, was ich heute machen soll?&quot; Am Sonntag Morgen beim Frühstück fragte meine Tochter mich plötzlich.

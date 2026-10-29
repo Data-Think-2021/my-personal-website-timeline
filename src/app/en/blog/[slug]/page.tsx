@@ -12,6 +12,7 @@ import {
   buildPageMetadata,
   localePath,
 } from "@/lib/seo";
+import { getTranslation } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { remark } from "remark";
@@ -59,6 +60,11 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
   const processedContent = await remark().use(html).process(contentForHtml);
   const contentHtml = processedContent.toString();
   const enPath = localePath("en", `/blog/${post.slug}`);
+  const t = (key: string) => getTranslation("en", key);
+  const keywords = [
+    ...(post.category ? [t(`blog.categories.${post.category}`)] : []),
+    ...(post.tags || []),
+  ];
 
   return (
     <>
@@ -69,7 +75,7 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
             description: post.excerpt || post.title,
             path: enPath,
             datePublished: post.date,
-            tags: post.tags,
+            tags: keywords,
           }),
           breadcrumbJsonLd([
             { name: "Home", path: "/en" },
@@ -86,7 +92,7 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
             href="/en/blog"
             className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors mb-8"
           >
-            ← Back to Blog
+            {t("blog.backToBlog")}
           </Link>
 
           <header className="mb-12">
@@ -102,6 +108,15 @@ export default async function EnBlogPostPage({ params }: BlogPostPageProps) {
                   day: "numeric",
                 })}
               </time>
+
+              {post.category && (
+                <>
+                  <span>•</span>
+                  <span className="px-3 py-1 bg-purple-600/30 border border-purple-500 text-purple-200 text-sm rounded-full">
+                    {t(`blog.categories.${post.category}`)}
+                  </span>
+                </>
+              )}
 
               {post.tags && post.tags.length > 0 && (
                 <>

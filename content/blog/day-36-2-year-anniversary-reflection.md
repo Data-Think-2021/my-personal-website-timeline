@@ -3,6 +3,7 @@ title: "Day 36: 2-Year Anniversary at NOW GmbH - An Unexpected Journey"
 date: "2025-10-06"
 excerpt: "Celebrating two years at NOW GmbH and reflecting on the unexpected journey from Senior Data Engineer to Head of Data & Cloud, and the transformation that led to this role."
 tags: ["leadership", "100-days", "reflection", "gratitude", "career-growth", "community-building"]
+category: "career-path"
 ---
 
 ✨ Today I celebrate my 2-year anniversary at NOW GmbH – and it feels like a journey I never expected to take.

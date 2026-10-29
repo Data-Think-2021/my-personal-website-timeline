@@ -3,6 +3,7 @@ title: "Day 38: Let the Team Tell the Year's Story"
 date: "2026-09-29"
 excerpt: "I planned to present our achievements — instead I asked the team to add proud moments on a timeline."
 tags: ["YearOne", "100-days", "leadership", "reflection", "team-spirit", "yearly-review"]
+category: "leading-people"
 ---
 
 # Day 38: Let the Team Tell the Year's Story

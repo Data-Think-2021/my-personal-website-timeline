@@ -3,6 +3,7 @@ title: "Day 15: I Failed to Start My Data Strategy"
 date: "2026-09-06"
 excerpt: "My most successful LinkedIn post was about data strategy. Nine months later, I still hadn't started — and what I'm changing for year two."
 tags: ["YearOne", "100-days", "leadership", "data-strategy", "failure", "learning"]
+category: "data-cloud-ai"
 ---
 
 # Day 15: I Failed to Start My Data Strategy

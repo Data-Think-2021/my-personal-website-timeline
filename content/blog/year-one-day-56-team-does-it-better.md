@@ -3,6 +3,7 @@ title: "Day 56: Being a Manager Doesn't Mean Being Better at Everything"
 date: "2026-10-17"
 excerpt: "I'm terrible at writing meeting minutes. My team isn't — and letting them own that is part of the job."
 tags: ["YearOne", "100-days", "leadership", "strengths", "ownership"]
+category: "leading-people"
 ---
 
 # Day 56: Being a Manager Doesn't Mean Being Better at Everything

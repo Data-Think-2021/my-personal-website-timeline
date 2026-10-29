@@ -3,6 +3,7 @@ title: "Day 40: Are Fundamentals Still Relevant in the AI Age?"
 date: "2025-10-10"
 excerpt: "Reflecting on the importance of understanding ML/DL fundamentals before jumping into AI tools, and sharing resources for continuous learning."
 tags: ["leadership", "100-days", "ai-first", "continuous-learning", "machine-learning", "data-engineering", "education"]
+category: "data-cloud-ai"
 ---
 
 Are people still learning Machine Learning or Deep Learning? Or am I already outdated?

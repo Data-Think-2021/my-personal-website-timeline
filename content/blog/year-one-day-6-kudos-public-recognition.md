@@ -3,6 +3,7 @@ title: "Day 6: Kudos — A Ritual for Public Recognition"
 date: "2026-08-28"
 excerpt: "Why I added a fixed Kudos slot to our Tech & Code sessions — and how public appreciation lands differently."
 tags: ["YearOne", "100-days", "leadership", "team-building", "recognition", "kudos"]
+category: "leading-people"
 ---
 
 # Day 6: Kudos — A Ritual for Public Recognition

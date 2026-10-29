@@ -3,6 +3,7 @@ title: "Day 100: First 100 Days Complete - A Journey of Growth and Reflection"
 date: "2025-12-09"
 excerpt: "Celebrating 100 days as Head of Data & Cloud with reflections on leadership lessons, team feedback, and excitement for what's next."
 tags: ["leadership", "100-days", "milestone", "reflection", "team-building", "growth", "celebration"]
+category: "career-path"
 ---
 
 Today marks my first 100 days in this role — and in an unexpected twist, I&apos;m celebrating it over lunch with our CEO. A coincidence that perfectly mirrors this journey so far: challenging, energizing, surprising, and full of opportunities I could never have imagined a year ago.

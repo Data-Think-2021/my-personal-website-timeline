@@ -3,6 +3,7 @@ title: "Day 21: GoFundMe for a Dog Shelter in China"
 date: "2026-09-12"
 excerpt: "I missed a 100 Days post to start a GoFundMe for Xiaoding's animal shelter in Danyang — about €2,600 for rent."
 tags: ["YearOne", "100-days", "leadership", "gofundme", "animals", "community"]
+category: "mentorship-community"
 ---
 
 # Day 21: GoFundMe for a Dog Shelter in China

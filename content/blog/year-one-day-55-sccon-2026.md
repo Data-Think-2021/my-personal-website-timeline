@@ -3,6 +3,7 @@ title: "Day 55: Take-aways von der SCCON 2026"
 date: "2026-10-16"
 excerpt: "Digitale Souveränität, Open Source und Führung im KI-Zeitalter — Eindrücke von der SCCON 2026 in Berlin."
 tags: ["YearOne", "100-days", "sccon2026", "digitalisierung", "govtech", "ki", "open-source"]
+category: "mentorship-community"
 ---
 
 # Day 55: Take-aways von der SCCON 2026

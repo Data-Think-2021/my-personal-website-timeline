@@ -3,6 +3,7 @@ title: "Day 6: Reflection - Transition to Tech as a Full-time Mom"
 date: "2025-09-06"
 excerpt: "A heartfelt reflection on my 5-year journey from full-time mom to Head of Data & Cloud, sharing the challenges, strategies, and lessons learned along the way."
 tags: ["leadership", "career", "100-days", "women-in-tech", "transition", "personal-journey"]
+category: "career-path"
 ---
 On this lovely Saturday, I would like to take a moment to reflect on the period from August 2020 to September 2025.
 

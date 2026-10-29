@@ -3,6 +3,7 @@ title: "Day 32: Sometimes People Need a New Challenge, Not a New Job"
 date: "2026-09-23"
 excerpt: "I said yes to a big new tool project at the wrong time on paper — because growth matters."
 tags: ["YearOne", "100-days", "leadership", "growth", "career", "team"]
+category: "leading-people"
 ---
 
 # Day 32: Sometimes People Need a New Challenge, Not a New Job

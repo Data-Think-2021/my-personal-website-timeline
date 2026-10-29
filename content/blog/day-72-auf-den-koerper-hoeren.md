@@ -3,6 +3,7 @@ title: "Day 72: Auf den Körper hören - Signale erkennen und Grenzen respektier
 date: "2025-11-11"
 excerpt: "Eine persönliche Reflexion über körperliche Signale bei Stress, Bauchschmerzen als Warnsignal, und die Wichtigkeit, auf den Körper zu hören, bevor Grenzen überschritten werden."
 tags: ["leadership", "100-days", "grenzen", "self-care", "stress-management", "health", "wellness"]
+category: "balance-belonging"
 ---
 
 Vorgestern hatte ich wieder starke Bauchschmerzen.

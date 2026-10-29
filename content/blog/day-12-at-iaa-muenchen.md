@@ -3,6 +3,7 @@ title: "Day 12: At IAA Mobility - Connecting Code to Real-World Impact"
 date: "2025-09-12"
 excerpt: "Reflecting on the importance of connecting technical work to real-world outcomes, based on my experience as an exhibitor at IAA Mobility."
 tags: ["leadership", "career", "100-days", "e-mobility", "business-impact", "networking", "iaa-mobility"]
+category: "mentorship-community"
 ---
 
 I often hear developers say: "I am a developer and only care about code."

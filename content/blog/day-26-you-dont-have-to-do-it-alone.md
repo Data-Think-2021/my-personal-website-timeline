@@ -3,6 +3,7 @@ title: "Day 26: You Don't Have to Do It Alone"
 date: "2025-09-26"
 excerpt: "Reflecting on the first four weeks of leadership and the importance of having role models, supporters, and structured learning paths to build confidence."
 tags: ["leadership", "100-days", "mentorship", "continuous-learning", "growth-mindset"]
+category: "mentorship-community"
 ---
 
 On my very first day, I caught myself thinking:

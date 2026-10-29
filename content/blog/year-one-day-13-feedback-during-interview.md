@@ -3,6 +3,7 @@ title: "Day 13: Giving Feedback Mid-Interview"
 date: "2026-09-04"
 excerpt: "I paused an interview halfway through to give the candidate honest feedback — and the conversation got more real."
 tags: ["YearOne", "100-days", "leadership", "hiring", "feedback"]
+category: "hiring-talent"
 ---
 
 # Day 13: Giving Feedback Mid-Interview

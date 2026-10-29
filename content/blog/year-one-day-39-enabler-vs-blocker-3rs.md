@@ -3,6 +3,7 @@ title: "Day 39: Are We Blocking Someone With This?"
 date: "2026-09-30"
 excerpt: "The 3 Rs from a cloud governance workshop — Rule, Rationale, Relief — and how we almost became the blocker."
 tags: ["YearOne", "100-days", "leadership", "enabling", "mindset", "blocker"]
+category: "leading-people"
 ---
 
 # Day 39: Are We Blocking Someone With This?
